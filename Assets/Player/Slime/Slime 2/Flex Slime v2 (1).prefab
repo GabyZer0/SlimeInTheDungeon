@@ -1,0 +1,5044 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3361975530579193996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3361975530579193993}
+  - component: {fileID: 3361975530579193992}
+  - component: {fileID: 3361975530579193999}
+  - component: {fileID: 3361975530579193998}
+  - component: {fileID: 3361975530579193997}
+  m_Layer: 0
+  m_Name: Flex Slime v2 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3361975530579193993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361975530579193996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3361975530579193992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361975530579193996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 793e0ae62b98fe542a8bc346e24e3dab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_container: {fileID: 11400000, guid: ad1276f2eaabf774d9c3f8bfb8cf82df, type: 2}
+  m_particleGroup: -1
+  m_selfCollide: 1
+  m_selfCollideFilter: 0
+  m_fluid: 1
+  m_massScale: 1.51
+  m_drawParticles: 0
+  m_recreateActor: 0
+  m_asset: {fileID: 11400000, guid: 7da9f6833fdcefb4c8807439dae721dc, type: 2}
+--- !u!114 &3361975530579193999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361975530579193996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17add574727e0b84ca0c004035e2bdd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_skinningFalloff: 1
+  m_skinningMaxDistance: 0.5
+  m_skinningTarget: {fileID: 3361975530579193996}
+  m_bindposes:
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.35059524
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.06488037
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.054164886
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.35059524
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.0541687
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.06488037
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.23000002
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.23000336
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.22999954
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.2406249
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.18437195
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.18437576
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.2833333
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.025642395
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.19230652
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.23819447
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.0340271
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.27152634
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.25444436
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.13555908
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.22888947
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.28452373
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.20476532
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.057144165
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.17884612
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.26987457
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.042949677
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.19642854
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.19642639
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.22142792
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.25166667
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.01499939
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.06833267
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.22142851
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.19642639
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.1964302
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.19642854
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.22142792
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.1964302
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.13749993
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.13749695
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.28645706
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.16726184
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.045829773
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.3029747
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.083333254
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.03690338
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.34166718
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.083333254
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.34166718
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.03690338
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.054166675
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.35059357
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.06488037
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.052777767
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.32611084
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.116111755
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.014999986
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.2516632
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.06833267
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.027083278
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.15625
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.2583351
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.014285684
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.014282227
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.06071472
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.049479127
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.14635468
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.3119774
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.0010416508
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.17292023
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.19791794
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.0124999285
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.16368866
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.24345398
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: 0.04358971
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.30897522
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.18205261
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.042948723
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.18141174
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.26987076
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.01666665
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.016670227
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.3722229
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.0625
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.21250153
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.0625
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.03690481
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.34166718
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.08333206
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.06488109
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.35059357
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.054164886
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.18437505
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.24062347
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.18437576
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.19642854
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.22142792
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.1964302
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.16944456
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.16944122
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.012779236
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.17291665
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.001045227
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.19791794
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.16369057
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.012496948
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.24345398
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.13750005
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.13749695
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.28645706
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.13750005
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.13749695
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.28645706
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.18205142
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.30897522
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.043590546
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.13750005
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.28646088
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.13750076
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.18437505
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.18437195
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.24062347
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.21499991
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.05166626
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.06833267
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.24880958
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.17023468
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.1702385
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.30297613
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.035118103
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.17083359
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.27152777
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.0340271
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.23819351
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.3089745
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.18205261
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.043590546
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.2864585
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.13749695
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.13750076
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.3416667
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0.08333588
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: -0.03690338
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 0
+    e02: 0
+    e03: -0.3416667
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: -0.03690338
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0.08333206
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_boneWeights:
+  - m_Weight0: 0.3289917
+    m_Weight1: 0.32898074
+    m_Weight2: 0.2666853
+    m_Weight3: 0.07534224
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 34
+  - m_Weight0: 0.35093996
+    m_Weight1: 0.29484546
+    m_Weight2: 0.26374972
+    m_Weight3: 0.0904649
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 40
+    m_BoneIndex3: 33
+  - m_Weight0: 0.41841266
+    m_Weight1: 0.26809257
+    m_Weight2: 0.22142744
+    m_Weight3: 0.09206732
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 33
+  - m_Weight0: 0.351446
+    m_Weight1: 0.35143176
+    m_Weight2: 0.21274239
+    m_Weight3: 0.0843799
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 20
+  - m_Weight0: 0.41435823
+    m_Weight1: 0.27641055
+    m_Weight2: 0.1875503
+    m_Weight3: 0.12168095
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 17
+  - m_Weight0: 0.34251642
+    m_Weight1: 0.34250367
+    m_Weight2: 0.17733794
+    m_Weight3: 0.13764207
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 20
+  - m_Weight0: 0.33486974
+    m_Weight1: 0.2519642
+    m_Weight2: 0.21799575
+    m_Weight3: 0.19517031
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 17
+    m_BoneIndex3: 20
+  - m_Weight0: 0.2983957
+    m_Weight1: 0.29838786
+    m_Weight2: 0.24416944
+    m_Weight3: 0.1590471
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 20
+    m_BoneIndex3: 42
+  - m_Weight0: 0.31916964
+    m_Weight1: 0.25376743
+    m_Weight2: 0.23333256
+    m_Weight3: 0.19373041
+    m_BoneIndex0: 17
+    m_BoneIndex1: 20
+    m_BoneIndex2: 31
+    m_BoneIndex3: 40
+  - m_Weight0: 0.33548513
+    m_Weight1: 0.23243633
+    m_Weight2: 0.21604116
+    m_Weight3: 0.21603747
+    m_BoneIndex0: 20
+    m_BoneIndex1: 13
+    m_BoneIndex2: 31
+    m_BoneIndex3: 40
+  - m_Weight0: 0.4065626
+    m_Weight1: 0.23918283
+    m_Weight2: 0.21813472
+    m_Weight3: 0.13611983
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 40
+    m_BoneIndex3: 33
+  - m_Weight0: 0.34118605
+    m_Weight1: 0.31279185
+    m_Weight2: 0.2129965
+    m_Weight3: 0.13302565
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 40
+    m_BoneIndex3: 33
+  - m_Weight0: 0.40065238
+    m_Weight1: 0.22333662
+    m_Weight2: 0.19702157
+    m_Weight3: 0.1789893
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 30
+  - m_Weight0: 0.312945
+    m_Weight1: 0.28964105
+    m_Weight2: 0.21136475
+    m_Weight3: 0.18604922
+    m_BoneIndex0: 17
+    m_BoneIndex1: 31
+    m_BoneIndex2: 30
+    m_BoneIndex3: 40
+  - m_Weight0: 0.4664719
+    m_Weight1: 0.1891996
+    m_Weight2: 0.18141086
+    m_Weight3: 0.16291766
+    m_BoneIndex0: 17
+    m_BoneIndex1: 30
+    m_BoneIndex2: 31
+    m_BoneIndex3: 8
+  - m_Weight0: 0.33670533
+    m_Weight1: 0.23923121
+    m_Weight2: 0.21919462
+    m_Weight3: 0.20486891
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 30
+    m_BoneIndex3: 33
+  - m_Weight0: 0.303918
+    m_Weight1: 0.30009246
+    m_Weight2: 0.2081665
+    m_Weight3: 0.187823
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 33
+    m_BoneIndex3: 40
+  - m_Weight0: 0.31630367
+    m_Weight1: 0.29274446
+    m_Weight2: 0.21362725
+    m_Weight3: 0.17732458
+    m_BoneIndex0: 30
+    m_BoneIndex1: 31
+    m_BoneIndex2: 17
+    m_BoneIndex3: 33
+  - m_Weight0: 0.33133408
+    m_Weight1: 0.3313293
+    m_Weight2: 0.19035374
+    m_Weight3: 0.14698291
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 31
+    m_BoneIndex3: 19
+  - m_Weight0: 0.48134044
+    m_Weight1: 0.23695402
+    m_Weight2: 0.14694804
+    m_Weight3: 0.13475749
+    m_BoneIndex0: 17
+    m_BoneIndex1: 30
+    m_BoneIndex2: 18
+    m_BoneIndex3: 8
+  - m_Weight0: 0.32028785
+    m_Weight1: 0.23817745
+    m_Weight2: 0.23414652
+    m_Weight3: 0.20738813
+    m_BoneIndex0: 30
+    m_BoneIndex1: 33
+    m_BoneIndex2: 31
+    m_BoneIndex3: 32
+  - m_Weight0: 0.26819667
+    m_Weight1: 0.24702327
+    m_Weight2: 0.24377069
+    m_Weight3: 0.24100937
+    m_BoneIndex0: 33
+    m_BoneIndex1: 42
+    m_BoneIndex2: 47
+    m_BoneIndex3: 31
+  - m_Weight0: 0.46074376
+    m_Weight1: 0.18687212
+    m_Weight2: 0.17918046
+    m_Weight3: 0.1732037
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 31
+    m_BoneIndex3: 33
+  - m_Weight0: 0.4602328
+    m_Weight1: 0.22655857
+    m_Weight2: 0.16877471
+    m_Weight3: 0.14443395
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.4602328
+    m_Weight1: 0.22655857
+    m_Weight2: 0.16877471
+    m_Weight3: 0.14443395
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.32489902
+    m_Weight1: 0.3248979
+    m_Weight2: 0.20611271
+    m_Weight3: 0.14409034
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.32489902
+    m_Weight1: 0.3248979
+    m_Weight2: 0.20611271
+    m_Weight3: 0.14409034
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.5162771
+    m_Weight1: 0.19039634
+    m_Weight2: 0.15195277
+    m_Weight3: 0.14137384
+    m_BoneIndex0: 17
+    m_BoneIndex1: 8
+    m_BoneIndex2: 30
+    m_BoneIndex3: 18
+  - m_Weight0: 0.46578166
+    m_Weight1: 0.20911086
+    m_Weight2: 0.1894038
+    m_Weight3: 0.13570371
+    m_BoneIndex0: 17
+    m_BoneIndex1: 8
+    m_BoneIndex2: 2
+    m_BoneIndex3: 20
+  - m_Weight0: 0.37625742
+    m_Weight1: 0.3172631
+    m_Weight2: 0.16448864
+    m_Weight3: 0.14199084
+    m_BoneIndex0: 17
+    m_BoneIndex1: 8
+    m_BoneIndex2: 2
+    m_BoneIndex3: 18
+  - m_Weight0: 0.32479128
+    m_Weight1: 0.2805993
+    m_Weight2: 0.26991946
+    m_Weight3: 0.124689974
+    m_BoneIndex0: 17
+    m_BoneIndex1: 2
+    m_BoneIndex2: 8
+    m_BoneIndex3: 13
+  - m_Weight0: 0.40843
+    m_Weight1: 0.23392904
+    m_Weight2: 0.23298003
+    m_Weight3: 0.12466093
+    m_BoneIndex0: 8
+    m_BoneIndex1: 2
+    m_BoneIndex2: 17
+    m_BoneIndex3: 18
+  - m_Weight0: 0.39105555
+    m_Weight1: 0.291859
+    m_Weight2: 0.19360605
+    m_Weight3: 0.12347937
+    m_BoneIndex0: 2
+    m_BoneIndex1: 8
+    m_BoneIndex2: 17
+    m_BoneIndex3: 13
+  - m_Weight0: 0.3796926
+    m_Weight1: 0.28984872
+    m_Weight2: 0.17071085
+    m_Weight3: 0.15974775
+    m_BoneIndex0: 8
+    m_BoneIndex1: 2
+    m_BoneIndex2: 0
+    m_BoneIndex3: 17
+  - m_Weight0: 0.47199988
+    m_Weight1: 0.2639871
+    m_Weight2: 0.13463727
+    m_Weight3: 0.12937585
+    m_BoneIndex0: 2
+    m_BoneIndex1: 8
+    m_BoneIndex2: 0
+    m_BoneIndex3: 17
+  - m_Weight0: 0.5600197
+    m_Weight1: 0.1658768
+    m_Weight2: 0.14849731
+    m_Weight3: 0.12560613
+    m_BoneIndex0: 2
+    m_BoneIndex1: 8
+    m_BoneIndex2: 13
+    m_BoneIndex3: 17
+  - m_Weight0: 0.63303566
+    m_Weight1: 0.1394542
+    m_Weight2: 0.13132453
+    m_Weight3: 0.096185595
+    m_BoneIndex0: 2
+    m_BoneIndex1: 8
+    m_BoneIndex2: 13
+    m_BoneIndex3: 4
+  - m_Weight0: 0.6039491
+    m_Weight1: 0.18856953
+    m_Weight2: 0.107075825
+    m_Weight3: 0.100405484
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 20
+    m_BoneIndex3: 8
+  - m_Weight0: 0.6694435
+    m_Weight1: 0.149727
+    m_Weight2: 0.0938575
+    m_Weight3: 0.086972
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 8
+    m_BoneIndex3: 4
+  - m_Weight0: 0.4093577
+    m_Weight1: 0.21283458
+    m_Weight2: 0.1919842
+    m_Weight3: 0.18582352
+    m_BoneIndex0: 8
+    m_BoneIndex1: 3
+    m_BoneIndex2: 2
+    m_BoneIndex3: 0
+  - m_Weight0: 0.42242977
+    m_Weight1: 0.2320038
+    m_Weight2: 0.18885243
+    m_Weight3: 0.15671408
+    m_BoneIndex0: 8
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 3
+  - m_Weight0: 0.43328544
+    m_Weight1: 0.25752506
+    m_Weight2: 0.18559398
+    m_Weight3: 0.1235955
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 20
+    m_BoneIndex3: 17
+  - m_Weight0: 0.4138855
+    m_Weight1: 0.21194914
+    m_Weight2: 0.18891701
+    m_Weight3: 0.18524835
+    m_BoneIndex0: 2
+    m_BoneIndex1: 17
+    m_BoneIndex2: 8
+    m_BoneIndex3: 13
+  - m_Weight0: 0.32282814
+    m_Weight1: 0.30699012
+    m_Weight2: 0.22537726
+    m_Weight3: 0.14480448
+    m_BoneIndex0: 17
+    m_BoneIndex1: 8
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.28325135
+    m_Weight1: 0.28066745
+    m_Weight2: 0.2692548
+    m_Weight3: 0.16682634
+    m_BoneIndex0: 2
+    m_BoneIndex1: 20
+    m_BoneIndex2: 13
+    m_BoneIndex3: 17
+  - m_Weight0: 0.30139685
+    m_Weight1: 0.27984792
+    m_Weight2: 0.22094047
+    m_Weight3: 0.1978147
+    m_BoneIndex0: 17
+    m_BoneIndex1: 2
+    m_BoneIndex2: 20
+    m_BoneIndex3: 13
+  - m_Weight0: 0.3885279
+    m_Weight1: 0.23427321
+    m_Weight2: 0.19988169
+    m_Weight3: 0.17731726
+    m_BoneIndex0: 17
+    m_BoneIndex1: 18
+    m_BoneIndex2: 30
+    m_BoneIndex3: 8
+  - m_Weight0: 0.32489902
+    m_Weight1: 0.3248979
+    m_Weight2: 0.20611271
+    m_Weight3: 0.14409034
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.42750007
+    m_Weight1: 0.38217002
+    m_Weight2: 0.10509989
+    m_Weight3: 0.085230075
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 5
+  - m_Weight0: 0.41113868
+    m_Weight1: 0.3733328
+    m_Weight2: 0.11812518
+    m_Weight3: 0.09740323
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 18
+    m_BoneIndex3: 8
+  - m_Weight0: 0.37765032
+    m_Weight1: 0.32412854
+    m_Weight2: 0.18815
+    m_Weight3: 0.110071115
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 8
+  - m_Weight0: 0.44406414
+    m_Weight1: 0.31851563
+    m_Weight2: 0.13634111
+    m_Weight3: 0.10107912
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 26
+  - m_Weight0: 0.31718805
+    m_Weight1: 0.29917762
+    m_Weight2: 0.2360534
+    m_Weight3: 0.14758088
+    m_BoneIndex0: 9
+    m_BoneIndex1: 18
+    m_BoneIndex2: 3
+    m_BoneIndex3: 19
+  - m_Weight0: 0.38567978
+    m_Weight1: 0.24830507
+    m_Weight2: 0.19900663
+    m_Weight3: 0.16700844
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 26
+  - m_Weight0: 0.3969783
+    m_Weight1: 0.22717406
+    m_Weight2: 0.19360743
+    m_Weight3: 0.18224025
+    m_BoneIndex0: 18
+    m_BoneIndex1: 9
+    m_BoneIndex2: 26
+    m_BoneIndex3: 19
+  - m_Weight0: 0.28050092
+    m_Weight1: 0.27856523
+    m_Weight2: 0.2560157
+    m_Weight3: 0.1849182
+    m_BoneIndex0: 9
+    m_BoneIndex1: 26
+    m_BoneIndex2: 18
+    m_BoneIndex3: 3
+  - m_Weight0: 0.3539082
+    m_Weight1: 0.2379218
+    m_Weight2: 0.2226123
+    m_Weight3: 0.1855576
+    m_BoneIndex0: 18
+    m_BoneIndex1: 26
+    m_BoneIndex2: 30
+    m_BoneIndex3: 19
+  - m_Weight0: 0.38634264
+    m_Weight1: 0.24719857
+    m_Weight2: 0.18323079
+    m_Weight3: 0.18322797
+    m_BoneIndex0: 26
+    m_BoneIndex1: 18
+    m_BoneIndex2: 32
+    m_BoneIndex3: 9
+  - m_Weight0: 0.29691863
+    m_Weight1: 0.2873127
+    m_Weight2: 0.23659505
+    m_Weight3: 0.17917374
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 18
+    m_BoneIndex3: 8
+  - m_Weight0: 0.39076924
+    m_Weight1: 0.30088672
+    m_Weight2: 0.1623282
+    m_Weight3: 0.14601587
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 8
+    m_BoneIndex3: 18
+  - m_Weight0: 0.39297816
+    m_Weight1: 0.23083417
+    m_Weight2: 0.20331156
+    m_Weight3: 0.17287609
+    m_BoneIndex0: 18
+    m_BoneIndex1: 9
+    m_BoneIndex2: 3
+    m_BoneIndex3: 19
+  - m_Weight0: 0.4755679
+    m_Weight1: 0.20105426
+    m_Weight2: 0.17896272
+    m_Weight3: 0.14441514
+    m_BoneIndex0: 18
+    m_BoneIndex1: 30
+    m_BoneIndex2: 19
+    m_BoneIndex3: 9
+  - m_Weight0: 0.39707673
+    m_Weight1: 0.2952483
+    m_Weight2: 0.17901085
+    m_Weight3: 0.12866412
+    m_BoneIndex0: 18
+    m_BoneIndex1: 30
+    m_BoneIndex2: 19
+    m_BoneIndex3: 17
+  - m_Weight0: 0.30744255
+    m_Weight1: 0.24724421
+    m_Weight2: 0.2370951
+    m_Weight3: 0.20821808
+    m_BoneIndex0: 8
+    m_BoneIndex1: 18
+    m_BoneIndex2: 3
+    m_BoneIndex3: 9
+  - m_Weight0: 0.31276587
+    m_Weight1: 0.28634083
+    m_Weight2: 0.23316093
+    m_Weight3: 0.16773231
+    m_BoneIndex0: 3
+    m_BoneIndex1: 8
+    m_BoneIndex2: 9
+    m_BoneIndex3: 18
+  - m_Weight0: 0.3536393
+    m_Weight1: 0.24185714
+    m_Weight2: 0.22973332
+    m_Weight3: 0.17477025
+    m_BoneIndex0: 18
+    m_BoneIndex1: 8
+    m_BoneIndex2: 17
+    m_BoneIndex3: 19
+  - m_Weight0: 0.38888708
+    m_Weight1: 0.22141649
+    m_Weight2: 0.22141458
+    m_Weight3: 0.16828194
+    m_BoneIndex0: 18
+    m_BoneIndex1: 17
+    m_BoneIndex2: 30
+    m_BoneIndex3: 19
+  - m_Weight0: 0.3542696
+    m_Weight1: 0.30637467
+    m_Weight2: 0.18225959
+    m_Weight3: 0.15709622
+    m_BoneIndex0: 30
+    m_BoneIndex1: 18
+    m_BoneIndex2: 17
+    m_BoneIndex3: 19
+  - m_Weight0: 0.42242977
+    m_Weight1: 0.2320038
+    m_Weight2: 0.18885243
+    m_Weight3: 0.15671408
+    m_BoneIndex0: 8
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 3
+  - m_Weight0: 0.4093577
+    m_Weight1: 0.21283458
+    m_Weight2: 0.1919842
+    m_Weight3: 0.18582352
+    m_BoneIndex0: 8
+    m_BoneIndex1: 3
+    m_BoneIndex2: 2
+    m_BoneIndex3: 0
+  - m_Weight0: 0.32282814
+    m_Weight1: 0.30699012
+    m_Weight2: 0.22537726
+    m_Weight3: 0.14480448
+    m_BoneIndex0: 17
+    m_BoneIndex1: 8
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.3885279
+    m_Weight1: 0.23427321
+    m_Weight2: 0.19988169
+    m_Weight3: 0.17731726
+    m_BoneIndex0: 17
+    m_BoneIndex1: 18
+    m_BoneIndex2: 30
+    m_BoneIndex3: 8
+  - m_Weight0: 0.32489902
+    m_Weight1: 0.3248979
+    m_Weight2: 0.20611271
+    m_Weight3: 0.14409034
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.32489902
+    m_Weight1: 0.3248979
+    m_Weight2: 0.20611271
+    m_Weight3: 0.14409034
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.49632508
+    m_Weight1: 0.20886599
+    m_Weight2: 0.14872845
+    m_Weight3: 0.14608057
+    m_BoneIndex0: 30
+    m_BoneIndex1: 18
+    m_BoneIndex2: 19
+    m_BoneIndex3: 17
+  - m_Weight0: 0.38176158
+    m_Weight1: 0.26575962
+    m_Weight2: 0.1816124
+    m_Weight3: 0.17086643
+    m_BoneIndex0: 30
+    m_BoneIndex1: 18
+    m_BoneIndex2: 32
+    m_BoneIndex3: 19
+  - m_Weight0: 0.46643302
+    m_Weight1: 0.20639026
+    m_Weight2: 0.17097622
+    m_Weight3: 0.15620038
+    m_BoneIndex0: 30
+    m_BoneIndex1: 32
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.35267037
+    m_Weight1: 0.30837557
+    m_Weight2: 0.18338087
+    m_Weight3: 0.15557317
+    m_BoneIndex0: 30
+    m_BoneIndex1: 32
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.330797
+    m_Weight1: 0.31305462
+    m_Weight2: 0.20763744
+    m_Weight3: 0.14851102
+    m_BoneIndex0: 30
+    m_BoneIndex1: 32
+    m_BoneIndex2: 33
+    m_BoneIndex3: 19
+  - m_Weight0: 0.44462544
+    m_Weight1: 0.25619784
+    m_Weight2: 0.15638024
+    m_Weight3: 0.14279646
+    m_BoneIndex0: 32
+    m_BoneIndex1: 30
+    m_BoneIndex2: 33
+    m_BoneIndex3: 26
+  - m_Weight0: 0.33295763
+    m_Weight1: 0.23165989
+    m_Weight2: 0.2283342
+    m_Weight3: 0.20704822
+    m_BoneIndex0: 32
+    m_BoneIndex1: 47
+    m_BoneIndex2: 33
+    m_BoneIndex3: 30
+  - m_Weight0: 0.47205532
+    m_Weight1: 0.18459931
+    m_Weight2: 0.1727383
+    m_Weight3: 0.17060705
+    m_BoneIndex0: 32
+    m_BoneIndex1: 47
+    m_BoneIndex2: 30
+    m_BoneIndex3: 33
+  - m_Weight0: 0.54047257
+    m_Weight1: 0.1735501
+    m_Weight2: 0.17149054
+    m_Weight3: 0.114486866
+    m_BoneIndex0: 32
+    m_BoneIndex1: 30
+    m_BoneIndex2: 26
+    m_BoneIndex3: 33
+  - m_Weight0: 0.5643368
+    m_Weight1: 0.1576191
+    m_Weight2: 0.14317314
+    m_Weight3: 0.13487104
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 26
+    m_BoneIndex3: 47
+  - m_Weight0: 0.5406645
+    m_Weight1: 0.21249315
+    m_Weight2: 0.123798996
+    m_Weight3: 0.1230433
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 30
+    m_BoneIndex3: 43
+  - m_Weight0: 0.5568853
+    m_Weight1: 0.16475399
+    m_Weight2: 0.15170816
+    m_Weight3: 0.12665254
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 43
+    m_BoneIndex3: 35
+  - m_Weight0: 0.41573545
+    m_Weight1: 0.30371332
+    m_Weight2: 0.14617962
+    m_Weight3: 0.13437161
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 30
+    m_BoneIndex3: 18
+  - m_Weight0: 0.39827496
+    m_Weight1: 0.2218642
+    m_Weight2: 0.21518077
+    m_Weight3: 0.16468012
+    m_BoneIndex0: 32
+    m_BoneIndex1: 30
+    m_BoneIndex2: 26
+    m_BoneIndex3: 18
+  - m_Weight0: 0.3848243
+    m_Weight1: 0.27169055
+    m_Weight2: 0.18539089
+    m_Weight3: 0.1580942
+    m_BoneIndex0: 26
+    m_BoneIndex1: 32
+    m_BoneIndex2: 18
+    m_BoneIndex3: 30
+  - m_Weight0: 0.25361484
+    m_Weight1: 0.2501243
+    m_Weight2: 0.24844879
+    m_Weight3: 0.24781205
+    m_BoneIndex0: 32
+    m_BoneIndex1: 18
+    m_BoneIndex2: 26
+    m_BoneIndex3: 30
+  - m_Weight0: 0.32489902
+    m_Weight1: 0.3248979
+    m_Weight2: 0.20611271
+    m_Weight3: 0.14409034
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.4602328
+    m_Weight1: 0.22655857
+    m_Weight2: 0.16877471
+    m_Weight3: 0.14443395
+    m_BoneIndex0: 30
+    m_BoneIndex1: 17
+    m_BoneIndex2: 18
+    m_BoneIndex3: 19
+  - m_Weight0: 0.3395831
+    m_Weight1: 0.22984105
+    m_Weight2: 0.21564335
+    m_Weight3: 0.2149325
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 45
+    m_BoneIndex3: 38
+  - m_Weight0: 0.39994705
+    m_Weight1: 0.21893583
+    m_Weight2: 0.19931683
+    m_Weight3: 0.1818003
+    m_BoneIndex0: 36
+    m_BoneIndex1: 38
+    m_BoneIndex2: 44
+    m_BoneIndex3: 23
+  - m_Weight0: 0.32006595
+    m_Weight1: 0.25758928
+    m_Weight2: 0.21490127
+    m_Weight3: 0.20744362
+    m_BoneIndex0: 38
+    m_BoneIndex1: 36
+    m_BoneIndex2: 29
+    m_BoneIndex3: 45
+  - m_Weight0: 0.27704623
+    m_Weight1: 0.27595052
+    m_Weight2: 0.24911648
+    m_Weight3: 0.19788672
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 36
+    m_BoneIndex3: 44
+  - m_Weight0: 0.4320812
+    m_Weight1: 0.2141738
+    m_Weight2: 0.20907682
+    m_Weight3: 0.14466813
+    m_BoneIndex0: 38
+    m_BoneIndex1: 45
+    m_BoneIndex2: 29
+    m_BoneIndex3: 36
+  - m_Weight0: 0.35122037
+    m_Weight1: 0.34917328
+    m_Weight2: 0.15426305
+    m_Weight3: 0.14534326
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 36
+    m_BoneIndex3: 48
+  - m_Weight0: 0.5099062
+    m_Weight1: 0.19661711
+    m_Weight2: 0.17065033
+    m_Weight3: 0.1228264
+    m_BoneIndex0: 38
+    m_BoneIndex1: 45
+    m_BoneIndex2: 29
+    m_BoneIndex3: 39
+  - m_Weight0: 0.37995872
+    m_Weight1: 0.37716505
+    m_Weight2: 0.121782206
+    m_Weight3: 0.12109405
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 48
+    m_BoneIndex3: 29
+  - m_Weight0: 0.4705625
+    m_Weight1: 0.19131663
+    m_Weight2: 0.1898551
+    m_Weight3: 0.14826575
+    m_BoneIndex0: 38
+    m_BoneIndex1: 39
+    m_BoneIndex2: 45
+    m_BoneIndex3: 29
+  - m_Weight0: 0.340121
+    m_Weight1: 0.337781
+    m_Weight2: 0.16135666
+    m_Weight3: 0.1607414
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 46
+    m_BoneIndex3: 39
+  - m_Weight0: 0.2853125
+    m_Weight1: 0.2812516
+    m_Weight2: 0.24274985
+    m_Weight3: 0.19068594
+    m_BoneIndex0: 29
+    m_BoneIndex1: 38
+    m_BoneIndex2: 36
+    m_BoneIndex3: 23
+  - m_Weight0: 0.38978168
+    m_Weight1: 0.21921472
+    m_Weight2: 0.19924639
+    m_Weight3: 0.19175716
+    m_BoneIndex0: 36
+    m_BoneIndex1: 23
+    m_BoneIndex2: 29
+    m_BoneIndex3: 22
+  - m_Weight0: 0.39022824
+    m_Weight1: 0.33448684
+    m_Weight2: 0.13832794
+    m_Weight3: 0.13695696
+    m_BoneIndex0: 38
+    m_BoneIndex1: 29
+    m_BoneIndex2: 45
+    m_BoneIndex3: 36
+  - m_Weight0: 0.46233892
+    m_Weight1: 0.29158065
+    m_Weight2: 0.12615232
+    m_Weight3: 0.11992815
+    m_BoneIndex0: 38
+    m_BoneIndex1: 29
+    m_BoneIndex2: 39
+    m_BoneIndex3: 45
+  - m_Weight0: 0.43335527
+    m_Weight1: 0.23189309
+    m_Weight2: 0.2051315
+    m_Weight3: 0.1296202
+    m_BoneIndex0: 38
+    m_BoneIndex1: 29
+    m_BoneIndex2: 39
+    m_BoneIndex3: 28
+  - m_Weight0: 0.35019657
+    m_Weight1: 0.22542563
+    m_Weight2: 0.21566199
+    m_Weight3: 0.2087158
+    m_BoneIndex0: 29
+    m_BoneIndex1: 23
+    m_BoneIndex2: 38
+    m_BoneIndex3: 36
+  - m_Weight0: 0.29919678
+    m_Weight1: 0.24773665
+    m_Weight2: 0.24658881
+    m_Weight3: 0.20647773
+    m_BoneIndex0: 36
+    m_BoneIndex1: 22
+    m_BoneIndex2: 23
+    m_BoneIndex3: 29
+  - m_Weight0: 0.46627167
+    m_Weight1: 0.25450566
+    m_Weight2: 0.14716396
+    m_Weight3: 0.13205874
+    m_BoneIndex0: 29
+    m_BoneIndex1: 38
+    m_BoneIndex2: 23
+    m_BoneIndex3: 16
+  - m_Weight0: 0.4622156
+    m_Weight1: 0.2738544
+    m_Weight2: 0.15103337
+    m_Weight3: 0.11289661
+    m_BoneIndex0: 29
+    m_BoneIndex1: 38
+    m_BoneIndex2: 16
+    m_BoneIndex3: 39
+  - m_Weight0: 0.34330118
+    m_Weight1: 0.2755719
+    m_Weight2: 0.1972195
+    m_Weight3: 0.18390737
+    m_BoneIndex0: 29
+    m_BoneIndex1: 38
+    m_BoneIndex2: 16
+    m_BoneIndex3: 39
+  - m_Weight0: 0.348069
+    m_Weight1: 0.246031
+    m_Weight2: 0.21326862
+    m_Weight3: 0.19263147
+    m_BoneIndex0: 29
+    m_BoneIndex1: 23
+    m_BoneIndex2: 22
+    m_BoneIndex3: 12
+  - m_Weight0: 0.3198758
+    m_Weight1: 0.26451728
+    m_Weight2: 0.2147076
+    m_Weight3: 0.20089936
+    m_BoneIndex0: 22
+    m_BoneIndex1: 23
+    m_BoneIndex2: 36
+    m_BoneIndex3: 29
+  - m_Weight0: 0.48353377
+    m_Weight1: 0.18007892
+    m_Weight2: 0.171232
+    m_Weight3: 0.16515535
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 23
+  - m_Weight0: 0.48784977
+    m_Weight1: 0.23944922
+    m_Weight2: 0.16596732
+    m_Weight3: 0.10673371
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 28
+  - m_Weight0: 0.34075853
+    m_Weight1: 0.3407576
+    m_Weight2: 0.1592423
+    m_Weight3: 0.15924151
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 25
+  - m_Weight0: 0.34075853
+    m_Weight1: 0.3407576
+    m_Weight2: 0.1592423
+    m_Weight3: 0.15924151
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 25
+  - m_Weight0: 0.3179213
+    m_Weight1: 0.22757258
+    m_Weight2: 0.22757012
+    m_Weight3: 0.22693592
+    m_BoneIndex0: 39
+    m_BoneIndex1: 29
+    m_BoneIndex2: 16
+    m_BoneIndex3: 25
+  - m_Weight0: 0.36942887
+    m_Weight1: 0.2991227
+    m_Weight2: 0.1736909
+    m_Weight3: 0.15775758
+    m_BoneIndex0: 39
+    m_BoneIndex1: 38
+    m_BoneIndex2: 29
+    m_BoneIndex3: 28
+  - m_Weight0: 0.36942995
+    m_Weight1: 0.2991242
+    m_Weight2: 0.17368843
+    m_Weight3: 0.15775736
+    m_BoneIndex0: 39
+    m_BoneIndex1: 25
+    m_BoneIndex2: 16
+    m_BoneIndex3: 28
+  - m_Weight0: 0.48895445
+    m_Weight1: 0.17788656
+    m_Weight2: 0.17788552
+    m_Weight3: 0.15527348
+    m_BoneIndex0: 39
+    m_BoneIndex1: 25
+    m_BoneIndex2: 38
+    m_BoneIndex3: 28
+  - m_Weight0: 0.3358539
+    m_Weight1: 0.3312397
+    m_Weight2: 0.17102668
+    m_Weight3: 0.1618798
+    m_BoneIndex0: 39
+    m_BoneIndex1: 25
+    m_BoneIndex2: 24
+    m_BoneIndex3: 37
+  - m_Weight0: 0.45140052
+    m_Weight1: 0.20454963
+    m_Weight2: 0.19550902
+    m_Weight3: 0.14854078
+    m_BoneIndex0: 39
+    m_BoneIndex1: 25
+    m_BoneIndex2: 37
+    m_BoneIndex3: 28
+  - m_Weight0: 0.27073047
+    m_Weight1: 0.2505394
+    m_Weight2: 0.24922
+    m_Weight3: 0.22951016
+    m_BoneIndex0: 25
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 24
+  - m_Weight0: 0.3151104
+    m_Weight1: 0.3130687
+    m_Weight2: 0.18673068
+    m_Weight3: 0.18509024
+    m_BoneIndex0: 37
+    m_BoneIndex1: 39
+    m_BoneIndex2: 25
+    m_BoneIndex3: 24
+  - m_Weight0: 0.43402207
+    m_Weight1: 0.21144615
+    m_Weight2: 0.21144594
+    m_Weight3: 0.14308588
+    m_BoneIndex0: 39
+    m_BoneIndex1: 46
+    m_BoneIndex2: 37
+    m_BoneIndex3: 28
+  - m_Weight0: 0.3212987
+    m_Weight1: 0.3193005
+    m_Weight2: 0.21358772
+    m_Weight3: 0.14581314
+    m_BoneIndex0: 37
+    m_BoneIndex1: 39
+    m_BoneIndex2: 46
+    m_BoneIndex3: 24
+  - m_Weight0: 0.32485846
+    m_Weight1: 0.3228356
+    m_Weight2: 0.21595256
+    m_Weight3: 0.13635342
+    m_BoneIndex0: 46
+    m_BoneIndex1: 39
+    m_BoneIndex2: 37
+    m_BoneIndex3: 45
+  - m_Weight0: 0.29272228
+    m_Weight1: 0.29272088
+    m_Weight2: 0.29095203
+    m_Weight3: 0.1236047
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 35
+  - m_Weight0: 0.3778497
+    m_Weight1: 0.26184738
+    m_Weight2: 0.1804949
+    m_Weight3: 0.17980795
+    m_BoneIndex0: 25
+    m_BoneIndex1: 24
+    m_BoneIndex2: 37
+    m_BoneIndex3: 39
+  - m_Weight0: 0.48163268
+    m_Weight1: 0.19581644
+    m_Weight2: 0.170801
+    m_Weight3: 0.15174985
+    m_BoneIndex0: 25
+    m_BoneIndex1: 39
+    m_BoneIndex2: 24
+    m_BoneIndex3: 16
+  - m_Weight0: 0.31440178
+    m_Weight1: 0.31236157
+    m_Weight2: 0.18692863
+    m_Weight3: 0.18630803
+    m_BoneIndex0: 46
+    m_BoneIndex1: 39
+    m_BoneIndex2: 45
+    m_BoneIndex3: 38
+  - m_Weight0: 0.45140028
+    m_Weight1: 0.20454855
+    m_Weight2: 0.19550979
+    m_Weight3: 0.14854138
+    m_BoneIndex0: 39
+    m_BoneIndex1: 38
+    m_BoneIndex2: 46
+    m_BoneIndex3: 28
+  - m_Weight0: 0.43335718
+    m_Weight1: 0.23188984
+    m_Weight2: 0.20513278
+    m_Weight3: 0.12962025
+    m_BoneIndex0: 25
+    m_BoneIndex1: 16
+    m_BoneIndex2: 39
+    m_BoneIndex3: 28
+  - m_Weight0: 0.2609613
+    m_Weight1: 0.2596775
+    m_Weight2: 0.24031448
+    m_Weight3: 0.2390467
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 46
+    m_BoneIndex3: 39
+  - m_Weight0: 0.33484024
+    m_Weight1: 0.33023837
+    m_Weight2: 0.17352921
+    m_Weight3: 0.1613922
+    m_BoneIndex0: 39
+    m_BoneIndex1: 38
+    m_BoneIndex2: 45
+    m_BoneIndex3: 46
+  - m_Weight0: 0.41156316
+    m_Weight1: 0.2538651
+    m_Weight2: 0.20168406
+    m_Weight3: 0.13288762
+    m_BoneIndex0: 25
+    m_BoneIndex1: 24
+    m_BoneIndex2: 11
+    m_BoneIndex3: 15
+  - m_Weight0: 0.5120878
+    m_Weight1: 0.17137738
+    m_Weight2: 0.16012461
+    m_Weight3: 0.15641034
+    m_BoneIndex0: 25
+    m_BoneIndex1: 16
+    m_BoneIndex2: 24
+    m_BoneIndex3: 11
+  - m_Weight0: 0.32696843
+    m_Weight1: 0.3265842
+    m_Weight2: 0.21034713
+    m_Weight3: 0.13610026
+    m_BoneIndex0: 25
+    m_BoneIndex1: 11
+    m_BoneIndex2: 24
+    m_BoneIndex3: 15
+  - m_Weight0: 0.38659528
+    m_Weight1: 0.2735173
+    m_Weight2: 0.1870658
+    m_Weight3: 0.1528216
+    m_BoneIndex0: 25
+    m_BoneIndex1: 11
+    m_BoneIndex2: 16
+    m_BoneIndex3: 24
+  - m_Weight0: 0.465734
+    m_Weight1: 0.21910706
+    m_Weight2: 0.15803538
+    m_Weight3: 0.1571236
+    m_BoneIndex0: 11
+    m_BoneIndex1: 25
+    m_BoneIndex2: 7
+    m_BoneIndex3: 5
+  - m_Weight0: 0.4094388
+    m_Weight1: 0.23809569
+    m_Weight2: 0.19260125
+    m_Weight3: 0.15986426
+    m_BoneIndex0: 11
+    m_BoneIndex1: 25
+    m_BoneIndex2: 7
+    m_BoneIndex3: 16
+  - m_Weight0: 0.50670415
+    m_Weight1: 0.17985955
+    m_Weight2: 0.16197148
+    m_Weight3: 0.15146482
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 5
+    m_BoneIndex3: 25
+  - m_Weight0: 0.4813253
+    m_Weight1: 0.23968813
+    m_Weight2: 0.14603601
+    m_Weight3: 0.13295054
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 25
+    m_BoneIndex3: 5
+  - m_Weight0: 0.3113606
+    m_Weight1: 0.25200388
+    m_Weight2: 0.21988337
+    m_Weight3: 0.21675207
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 16
+    m_BoneIndex3: 25
+  - m_Weight0: 0.36194313
+    m_Weight1: 0.36170837
+    m_Weight2: 0.14154948
+    m_Weight3: 0.13479906
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 16
+    m_BoneIndex3: 25
+  - m_Weight0: 0.30887526
+    m_Weight1: 0.2906515
+    m_Weight2: 0.22148375
+    m_Weight3: 0.17898954
+    m_BoneIndex0: 7
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 25
+  - m_Weight0: 0.4662315
+    m_Weight1: 0.23429473
+    m_Weight2: 0.16255291
+    m_Weight3: 0.13692094
+    m_BoneIndex0: 7
+    m_BoneIndex1: 11
+    m_BoneIndex2: 16
+    m_BoneIndex3: 1
+  - m_Weight0: 0.32850507
+    m_Weight1: 0.3213348
+    m_Weight2: 0.1817997
+    m_Weight3: 0.1683604
+    m_BoneIndex0: 16
+    m_BoneIndex1: 7
+    m_BoneIndex2: 12
+    m_BoneIndex3: 11
+  - m_Weight0: 0.46555296
+    m_Weight1: 0.18739778
+    m_Weight2: 0.17357264
+    m_Weight3: 0.17347658
+    m_BoneIndex0: 7
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 12
+  - m_Weight0: 0.3419065
+    m_Weight1: 0.29306808
+    m_Weight2: 0.21209861
+    m_Weight3: 0.15292688
+    m_BoneIndex0: 25
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 7
+  - m_Weight0: 0.43614712
+    m_Weight1: 0.23805974
+    m_Weight2: 0.16897291
+    m_Weight3: 0.15682016
+    m_BoneIndex0: 16
+    m_BoneIndex1: 25
+    m_BoneIndex2: 7
+    m_BoneIndex3: 11
+  - m_Weight0: 0.47713432
+    m_Weight1: 0.17769209
+    m_Weight2: 0.1762115
+    m_Weight3: 0.16896209
+    m_BoneIndex0: 16
+    m_BoneIndex1: 29
+    m_BoneIndex2: 7
+    m_BoneIndex3: 25
+  - m_Weight0: 0.45716232
+    m_Weight1: 0.28831333
+    m_Weight2: 0.12978356
+    m_Weight3: 0.12474075
+    m_BoneIndex0: 25
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 39
+  - m_Weight0: 0.46221486
+    m_Weight1: 0.2738536
+    m_Weight2: 0.15103416
+    m_Weight3: 0.112897456
+    m_BoneIndex0: 16
+    m_BoneIndex1: 25
+    m_BoneIndex2: 29
+    m_BoneIndex3: 39
+  - m_Weight0: 0.48785248
+    m_Weight1: 0.239448
+    m_Weight2: 0.1659659
+    m_Weight3: 0.10673361
+    m_BoneIndex0: 16
+    m_BoneIndex1: 29
+    m_BoneIndex2: 25
+    m_BoneIndex3: 28
+  - m_Weight0: 0.3432988
+    m_Weight1: 0.2755711
+    m_Weight2: 0.19722196
+    m_Weight3: 0.18390816
+    m_BoneIndex0: 16
+    m_BoneIndex1: 25
+    m_BoneIndex2: 29
+    m_BoneIndex3: 39
+  - m_Weight0: 0.34075853
+    m_Weight1: 0.3407576
+    m_Weight2: 0.1592423
+    m_Weight3: 0.15924151
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 25
+  - m_Weight0: 0.34075853
+    m_Weight1: 0.3407576
+    m_Weight2: 0.1592423
+    m_Weight3: 0.15924151
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 25
+  - m_Weight0: 0.34075853
+    m_Weight1: 0.3407576
+    m_Weight2: 0.1592423
+    m_Weight3: 0.15924151
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 25
+  - m_Weight0: 0.46576747
+    m_Weight1: 0.3154967
+    m_Weight2: 0.112687536
+    m_Weight3: 0.10604833
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.50309837
+    m_Weight1: 0.24233297
+    m_Weight2: 0.13425145
+    m_Weight3: 0.12031725
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 22
+    m_BoneIndex3: 23
+  - m_Weight0: 0.43987003
+    m_Weight1: 0.26950893
+    m_Weight2: 0.15756473
+    m_Weight3: 0.13305627
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 22
+    m_BoneIndex3: 14
+  - m_Weight0: 0.4275121
+    m_Weight1: 0.32875147
+    m_Weight2: 0.12531109
+    m_Weight3: 0.118425384
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.38061756
+    m_Weight1: 0.24133489
+    m_Weight2: 0.21243005
+    m_Weight3: 0.16561745
+    m_BoneIndex0: 12
+    m_BoneIndex1: 22
+    m_BoneIndex2: 6
+    m_BoneIndex3: 23
+  - m_Weight0: 0.43736288
+    m_Weight1: 0.20047365
+    m_Weight2: 0.18636678
+    m_Weight3: 0.1757966
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 22
+    m_BoneIndex3: 29
+  - m_Weight0: 0.32557905
+    m_Weight1: 0.2783045
+    m_Weight2: 0.23219448
+    m_Weight3: 0.16392209
+    m_BoneIndex0: 22
+    m_BoneIndex1: 12
+    m_BoneIndex2: 23
+    m_BoneIndex3: 29
+  - m_Weight0: 0.29527527
+    m_Weight1: 0.26477334
+    m_Weight2: 0.22291802
+    m_Weight3: 0.21703339
+    m_BoneIndex0: 12
+    m_BoneIndex1: 29
+    m_BoneIndex2: 23
+    m_BoneIndex3: 22
+  - m_Weight0: 0.41696042
+    m_Weight1: 0.27280667
+    m_Weight2: 0.18598524
+    m_Weight3: 0.124247715
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 7
+    m_BoneIndex3: 16
+  - m_Weight0: 0.44238257
+    m_Weight1: 0.21686707
+    m_Weight2: 0.17781821
+    m_Weight3: 0.16293211
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 16
+    m_BoneIndex3: 7
+  - m_Weight0: 0.3662816
+    m_Weight1: 0.23221299
+    m_Weight2: 0.2322099
+    m_Weight3: 0.16929555
+    m_BoneIndex0: 12
+    m_BoneIndex1: 16
+    m_BoneIndex2: 29
+    m_BoneIndex3: 6
+  - m_Weight0: 0.3607612
+    m_Weight1: 0.23635763
+    m_Weight2: 0.22987746
+    m_Weight3: 0.17300369
+    m_BoneIndex0: 29
+    m_BoneIndex1: 12
+    m_BoneIndex2: 16
+    m_BoneIndex3: 23
+  - m_Weight0: 0.32755086
+    m_Weight1: 0.2951459
+    m_Weight2: 0.20345657
+    m_Weight3: 0.17384669
+    m_BoneIndex0: 7
+    m_BoneIndex1: 12
+    m_BoneIndex2: 6
+    m_BoneIndex3: 16
+  - m_Weight0: 0.30454135
+    m_Weight1: 0.273088
+    m_Weight2: 0.25251782
+    m_Weight3: 0.16985296
+    m_BoneIndex0: 12
+    m_BoneIndex1: 16
+    m_BoneIndex2: 7
+    m_BoneIndex3: 6
+  - m_Weight0: 0.36489564
+    m_Weight1: 0.23906142
+    m_Weight2: 0.23250587
+    m_Weight3: 0.16353713
+    m_BoneIndex0: 16
+    m_BoneIndex1: 12
+    m_BoneIndex2: 29
+    m_BoneIndex3: 7
+  - m_Weight0: 0.35956237
+    m_Weight1: 0.3595583
+    m_Weight2: 0.15878841
+    m_Weight3: 0.12209083
+    m_BoneIndex0: 16
+    m_BoneIndex1: 29
+    m_BoneIndex2: 12
+    m_BoneIndex3: 38
+  - m_Weight0: 0.46555296
+    m_Weight1: 0.18739778
+    m_Weight2: 0.17357264
+    m_Weight3: 0.17347658
+    m_BoneIndex0: 7
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 12
+  - m_Weight0: 0.32850507
+    m_Weight1: 0.3213348
+    m_Weight2: 0.1817997
+    m_Weight3: 0.1683604
+    m_BoneIndex0: 16
+    m_BoneIndex1: 7
+    m_BoneIndex2: 12
+    m_BoneIndex3: 11
+  - m_Weight0: 0.47713432
+    m_Weight1: 0.17769209
+    m_Weight2: 0.1762115
+    m_Weight3: 0.16896209
+    m_BoneIndex0: 16
+    m_BoneIndex1: 29
+    m_BoneIndex2: 7
+    m_BoneIndex3: 25
+  - m_Weight0: 0.48785248
+    m_Weight1: 0.239448
+    m_Weight2: 0.1659659
+    m_Weight3: 0.10673361
+    m_BoneIndex0: 16
+    m_BoneIndex1: 29
+    m_BoneIndex2: 25
+    m_BoneIndex3: 28
+  - m_Weight0: 0.34075853
+    m_Weight1: 0.3407576
+    m_Weight2: 0.1592423
+    m_Weight3: 0.15924151
+    m_BoneIndex0: 29
+    m_BoneIndex1: 16
+    m_BoneIndex2: 38
+    m_BoneIndex3: 25
+  - m_Weight0: 0.3289917
+    m_Weight1: 0.32898074
+    m_Weight2: 0.2666853
+    m_Weight3: 0.07534224
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 34
+  - m_Weight0: 0.34745994
+    m_Weight1: 0.29193246
+    m_Weight2: 0.26114702
+    m_Weight3: 0.099460565
+    m_BoneIndex0: 40
+    m_BoneIndex1: 42
+    m_BoneIndex2: 31
+    m_BoneIndex3: 44
+  - m_Weight0: 0.3721915
+    m_Weight1: 0.26386747
+    m_Weight2: 0.26386353
+    m_Weight3: 0.10007755
+    m_BoneIndex0: 42
+    m_BoneIndex1: 31
+    m_BoneIndex2: 40
+    m_BoneIndex3: 44
+  - m_Weight0: 0.35093996
+    m_Weight1: 0.29484546
+    m_Weight2: 0.26374972
+    m_Weight3: 0.0904649
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 40
+    m_BoneIndex3: 33
+  - m_Weight0: 0.3917016
+    m_Weight1: 0.26201397
+    m_Weight2: 0.2107339
+    m_Weight3: 0.13555056
+    m_BoneIndex0: 42
+    m_BoneIndex1: 31
+    m_BoneIndex2: 40
+    m_BoneIndex3: 47
+  - m_Weight0: 0.34118605
+    m_Weight1: 0.31279185
+    m_Weight2: 0.2129965
+    m_Weight3: 0.13302565
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 40
+    m_BoneIndex3: 33
+  - m_Weight0: 0.3304537
+    m_Weight1: 0.24328014
+    m_Weight2: 0.23568285
+    m_Weight3: 0.1905832
+    m_BoneIndex0: 42
+    m_BoneIndex1: 47
+    m_BoneIndex2: 31
+    m_BoneIndex3: 33
+  - m_Weight0: 0.303918
+    m_Weight1: 0.30009246
+    m_Weight2: 0.2081665
+    m_Weight3: 0.187823
+    m_BoneIndex0: 31
+    m_BoneIndex1: 42
+    m_BoneIndex2: 33
+    m_BoneIndex3: 40
+  - m_Weight0: 0.35547084
+    m_Weight1: 0.23657717
+    m_Weight2: 0.22461477
+    m_Weight3: 0.18333727
+    m_BoneIndex0: 47
+    m_BoneIndex1: 42
+    m_BoneIndex2: 33
+    m_BoneIndex3: 31
+  - m_Weight0: 0.26819667
+    m_Weight1: 0.24702327
+    m_Weight2: 0.24377069
+    m_Weight3: 0.24100937
+    m_BoneIndex0: 33
+    m_BoneIndex1: 42
+    m_BoneIndex2: 47
+    m_BoneIndex3: 31
+  - m_Weight0: 0.37228465
+    m_Weight1: 0.24902025
+    m_Weight2: 0.2002858
+    m_Weight3: 0.17840934
+    m_BoneIndex0: 42
+    m_BoneIndex1: 40
+    m_BoneIndex2: 31
+    m_BoneIndex3: 44
+  - m_Weight0: 0.32271352
+    m_Weight1: 0.29586667
+    m_Weight2: 0.20146838
+    m_Weight3: 0.1799515
+    m_BoneIndex0: 40
+    m_BoneIndex1: 42
+    m_BoneIndex2: 31
+    m_BoneIndex3: 44
+  - m_Weight0: 0.39842203
+    m_Weight1: 0.20533738
+    m_Weight2: 0.20533738
+    m_Weight3: 0.19090314
+    m_BoneIndex0: 42
+    m_BoneIndex1: 40
+    m_BoneIndex2: 31
+    m_BoneIndex3: 47
+  - m_Weight0: 0.3317793
+    m_Weight1: 0.28987408
+    m_Weight2: 0.21102262
+    m_Weight3: 0.16732404
+    m_BoneIndex0: 47
+    m_BoneIndex1: 42
+    m_BoneIndex2: 48
+    m_BoneIndex3: 31
+  - m_Weight0: 0.4768852
+    m_Weight1: 0.17938149
+    m_Weight2: 0.17686334
+    m_Weight3: 0.16686992
+    m_BoneIndex0: 47
+    m_BoneIndex1: 42
+    m_BoneIndex2: 48
+    m_BoneIndex3: 43
+  - m_Weight0: 0.33031532
+    m_Weight1: 0.27341306
+    m_Weight2: 0.20127495
+    m_Weight3: 0.19499674
+    m_BoneIndex0: 44
+    m_BoneIndex1: 42
+    m_BoneIndex2: 48
+    m_BoneIndex3: 40
+  - m_Weight0: 0.3433531
+    m_Weight1: 0.2370198
+    m_Weight2: 0.23404233
+    m_Weight3: 0.18558486
+    m_BoneIndex0: 44
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 34
+  - m_Weight0: 0.30139998
+    m_Weight1: 0.26334128
+    m_Weight2: 0.24355426
+    m_Weight3: 0.19170448
+    m_BoneIndex0: 48
+    m_BoneIndex1: 42
+    m_BoneIndex2: 44
+    m_BoneIndex3: 47
+  - m_Weight0: 0.32656056
+    m_Weight1: 0.3265595
+    m_Weight2: 0.19395345
+    m_Weight3: 0.15292656
+    m_BoneIndex0: 47
+    m_BoneIndex1: 48
+    m_BoneIndex2: 42
+    m_BoneIndex3: 44
+  - m_Weight0: 0.4792222
+    m_Weight1: 0.2346144
+    m_Weight2: 0.16403802
+    m_Weight3: 0.122125514
+    m_BoneIndex0: 47
+    m_BoneIndex1: 48
+    m_BoneIndex2: 43
+    m_BoneIndex3: 42
+  - m_Weight0: 0.4520113
+    m_Weight1: 0.23056734
+    m_Weight2: 0.16259001
+    m_Weight3: 0.15483135
+    m_BoneIndex0: 44
+    m_BoneIndex1: 48
+    m_BoneIndex2: 34
+    m_BoneIndex3: 42
+  - m_Weight0: 0.5074872
+    m_Weight1: 0.19046377
+    m_Weight2: 0.15409507
+    m_Weight3: 0.14795394
+    m_BoneIndex0: 44
+    m_BoneIndex1: 34
+    m_BoneIndex2: 36
+    m_BoneIndex3: 42
+  - m_Weight0: 0.40155837
+    m_Weight1: 0.2943527
+    m_Weight2: 0.15331143
+    m_Weight3: 0.15077749
+    m_BoneIndex0: 48
+    m_BoneIndex1: 44
+    m_BoneIndex2: 42
+    m_BoneIndex3: 47
+  - m_Weight0: 0.4569104
+    m_Weight1: 0.22672682
+    m_Weight2: 0.16030183
+    m_Weight3: 0.15606095
+    m_BoneIndex0: 48
+    m_BoneIndex1: 47
+    m_BoneIndex2: 44
+    m_BoneIndex3: 45
+  - m_Weight0: 0.33897215
+    m_Weight1: 0.3389653
+    m_Weight2: 0.16365647
+    m_Weight3: 0.15840606
+    m_BoneIndex0: 48
+    m_BoneIndex1: 47
+    m_BoneIndex2: 43
+    m_BoneIndex3: 45
+  - m_Weight0: 0.46697694
+    m_Weight1: 0.26622158
+    m_Weight2: 0.15193625
+    m_Weight3: 0.11486526
+    m_BoneIndex0: 47
+    m_BoneIndex1: 43
+    m_BoneIndex2: 48
+    m_BoneIndex3: 41
+  - m_Weight0: 0.46065816
+    m_Weight1: 0.23830004
+    m_Weight2: 0.1642332
+    m_Weight3: 0.13680862
+    m_BoneIndex0: 47
+    m_BoneIndex1: 43
+    m_BoneIndex2: 32
+    m_BoneIndex3: 33
+  - m_Weight0: 0.42706084
+    m_Weight1: 0.30507115
+    m_Weight2: 0.13643326
+    m_Weight3: 0.13143472
+    m_BoneIndex0: 43
+    m_BoneIndex1: 47
+    m_BoneIndex2: 32
+    m_BoneIndex3: 46
+  - m_Weight0: 0.33083016
+    m_Weight1: 0.3184364
+    m_Weight2: 0.22885768
+    m_Weight3: 0.121875755
+    m_BoneIndex0: 43
+    m_BoneIndex1: 47
+    m_BoneIndex2: 32
+    m_BoneIndex3: 35
+  - m_Weight0: 0.46662518
+    m_Weight1: 0.18782397
+    m_Weight2: 0.17490114
+    m_Weight3: 0.17064965
+    m_BoneIndex0: 43
+    m_BoneIndex1: 47
+    m_BoneIndex2: 35
+    m_BoneIndex3: 32
+  - m_Weight0: 0.3505141
+    m_Weight1: 0.28926748
+    m_Weight2: 0.19859576
+    m_Weight3: 0.16162261
+    m_BoneIndex0: 43
+    m_BoneIndex1: 32
+    m_BoneIndex2: 47
+    m_BoneIndex3: 35
+  - m_Weight0: 0.37659848
+    m_Weight1: 0.26948518
+    m_Weight2: 0.21365795
+    m_Weight3: 0.14025842
+    m_BoneIndex0: 43
+    m_BoneIndex1: 35
+    m_BoneIndex2: 32
+    m_BoneIndex3: 47
+  - m_Weight0: 0.33734155
+    m_Weight1: 0.29403
+    m_Weight2: 0.21719229
+    m_Weight3: 0.15143614
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 35
+    m_BoneIndex3: 26
+  - m_Weight0: 0.45068082
+    m_Weight1: 0.23472887
+    m_Weight2: 0.1760615
+    m_Weight3: 0.13852875
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 47
+    m_BoneIndex3: 35
+  - m_Weight0: 0.47773948
+    m_Weight1: 0.20084995
+    m_Weight2: 0.16228533
+    m_Weight3: 0.1591252
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 26
+    m_BoneIndex3: 35
+  - m_Weight0: 0.5643368
+    m_Weight1: 0.1576191
+    m_Weight2: 0.14317314
+    m_Weight3: 0.13487104
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 26
+    m_BoneIndex3: 47
+  - m_Weight0: 0.5568853
+    m_Weight1: 0.16475399
+    m_Weight2: 0.15170816
+    m_Weight3: 0.12665254
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 43
+    m_BoneIndex3: 35
+  - m_Weight0: 0.35310197
+    m_Weight1: 0.27181476
+    m_Weight2: 0.18754233
+    m_Weight3: 0.18754098
+    m_BoneIndex0: 43
+    m_BoneIndex1: 35
+    m_BoneIndex2: 46
+    m_BoneIndex3: 37
+  - m_Weight0: 0.45174685
+    m_Weight1: 0.20783322
+    m_Weight2: 0.1772362
+    m_Weight3: 0.16318381
+    m_BoneIndex0: 43
+    m_BoneIndex1: 46
+    m_BoneIndex2: 35
+    m_BoneIndex3: 47
+  - m_Weight0: 0.47205532
+    m_Weight1: 0.18459931
+    m_Weight2: 0.1727383
+    m_Weight3: 0.17060705
+    m_BoneIndex0: 32
+    m_BoneIndex1: 47
+    m_BoneIndex2: 30
+    m_BoneIndex3: 33
+  - m_Weight0: 0.36093014
+    m_Weight1: 0.2560332
+    m_Weight2: 0.23193026
+    m_Weight3: 0.15110643
+    m_BoneIndex0: 32
+    m_BoneIndex1: 47
+    m_BoneIndex2: 43
+    m_BoneIndex3: 33
+  - m_Weight0: 0.4079795
+    m_Weight1: 0.2430437
+    m_Weight2: 0.20920897
+    m_Weight3: 0.13976787
+    m_BoneIndex0: 43
+    m_BoneIndex1: 47
+    m_BoneIndex2: 46
+    m_BoneIndex3: 41
+  - m_Weight0: 0.33295763
+    m_Weight1: 0.23165989
+    m_Weight2: 0.2283342
+    m_Weight3: 0.20704822
+    m_BoneIndex0: 32
+    m_BoneIndex1: 47
+    m_BoneIndex2: 33
+    m_BoneIndex3: 30
+  - m_Weight0: 0.3437089
+    m_Weight1: 0.260236
+    m_Weight2: 0.20166877
+    m_Weight3: 0.19438633
+    m_BoneIndex0: 47
+    m_BoneIndex1: 32
+    m_BoneIndex2: 43
+    m_BoneIndex3: 33
+  - m_Weight0: 0.2633235
+    m_Weight1: 0.2521346
+    m_Weight2: 0.2521322
+    m_Weight3: 0.23240972
+    m_BoneIndex0: 43
+    m_BoneIndex1: 46
+    m_BoneIndex2: 37
+    m_BoneIndex3: 35
+  - m_Weight0: 0.3382946
+    m_Weight1: 0.3254883
+    m_Weight2: 0.173046
+    m_Weight3: 0.16317114
+    m_BoneIndex0: 46
+    m_BoneIndex1: 43
+    m_BoneIndex2: 35
+    m_BoneIndex3: 37
+  - m_Weight0: 0.31360003
+    m_Weight1: 0.31359693
+    m_Weight2: 0.18727523
+    m_Weight3: 0.18552774
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 43
+    m_BoneIndex3: 35
+  - m_Weight0: 0.4490928
+    m_Weight1: 0.2074102
+    m_Weight2: 0.19417945
+    m_Weight3: 0.14931749
+    m_BoneIndex0: 46
+    m_BoneIndex1: 43
+    m_BoneIndex2: 37
+    m_BoneIndex3: 41
+  - m_Weight0: 0.32059038
+    m_Weight1: 0.32058793
+    m_Weight2: 0.21261595
+    m_Weight3: 0.14620568
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 35
+  - m_Weight0: 0.4350448
+    m_Weight1: 0.21087693
+    m_Weight2: 0.21012731
+    m_Weight3: 0.14395104
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 43
+  - m_Weight0: 0.29272228
+    m_Weight1: 0.29272088
+    m_Weight2: 0.29095203
+    m_Weight3: 0.1236047
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 35
+  - m_Weight0: 0.32485846
+    m_Weight1: 0.3228356
+    m_Weight2: 0.21595256
+    m_Weight3: 0.13635342
+    m_BoneIndex0: 46
+    m_BoneIndex1: 39
+    m_BoneIndex2: 37
+    m_BoneIndex3: 45
+  - m_Weight0: 0.45428532
+    m_Weight1: 0.20550981
+    m_Weight2: 0.19494063
+    m_Weight3: 0.14526427
+    m_BoneIndex0: 46
+    m_BoneIndex1: 45
+    m_BoneIndex2: 39
+    m_BoneIndex3: 41
+  - m_Weight0: 0.31440178
+    m_Weight1: 0.31236157
+    m_Weight2: 0.18692863
+    m_Weight3: 0.18630803
+    m_BoneIndex0: 46
+    m_BoneIndex1: 39
+    m_BoneIndex2: 45
+    m_BoneIndex3: 38
+  - m_Weight0: 0.33583537
+    m_Weight1: 0.3308446
+    m_Weight2: 0.17270033
+    m_Weight3: 0.1606196
+    m_BoneIndex0: 46
+    m_BoneIndex1: 45
+    m_BoneIndex2: 38
+    m_BoneIndex3: 39
+  - m_Weight0: 0.2609613
+    m_Weight1: 0.2596775
+    m_Weight2: 0.24031448
+    m_Weight3: 0.2390467
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 46
+    m_BoneIndex3: 39
+  - m_Weight0: 0.47089386
+    m_Weight1: 0.19160232
+    m_Weight2: 0.18844745
+    m_Weight3: 0.14905624
+    m_BoneIndex0: 45
+    m_BoneIndex1: 46
+    m_BoneIndex2: 38
+    m_BoneIndex3: 48
+  - m_Weight0: 0.340121
+    m_Weight1: 0.337781
+    m_Weight2: 0.16135666
+    m_Weight3: 0.1607414
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 46
+    m_BoneIndex3: 39
+  - m_Weight0: 0.485045
+    m_Weight1: 0.18398406
+    m_Weight2: 0.17694509
+    m_Weight3: 0.15402575
+    m_BoneIndex0: 46
+    m_BoneIndex1: 43
+    m_BoneIndex2: 45
+    m_BoneIndex3: 41
+  - m_Weight0: 0.36991775
+    m_Weight1: 0.29952595
+    m_Weight2: 0.174999
+    m_Weight3: 0.15555732
+    m_BoneIndex0: 46
+    m_BoneIndex1: 45
+    m_BoneIndex2: 48
+    m_BoneIndex3: 41
+  - m_Weight0: 0.43323103
+    m_Weight1: 0.23413657
+    m_Weight2: 0.20609726
+    m_Weight3: 0.12653524
+    m_BoneIndex0: 45
+    m_BoneIndex1: 48
+    m_BoneIndex2: 46
+    m_BoneIndex3: 41
+  - m_Weight0: 0.36529297
+    m_Weight1: 0.2999978
+    m_Weight2: 0.17379163
+    m_Weight3: 0.16091752
+    m_BoneIndex0: 46
+    m_BoneIndex1: 43
+    m_BoneIndex2: 47
+    m_BoneIndex3: 41
+  - m_Weight0: 0.31342602
+    m_Weight1: 0.23387724
+    m_Weight2: 0.22675729
+    m_Weight3: 0.22593944
+    m_BoneIndex0: 46
+    m_BoneIndex1: 43
+    m_BoneIndex2: 47
+    m_BoneIndex3: 48
+  - m_Weight0: 0.34370375
+    m_Weight1: 0.27412963
+    m_Weight2: 0.1984783
+    m_Weight3: 0.18368831
+    m_BoneIndex0: 48
+    m_BoneIndex1: 45
+    m_BoneIndex2: 47
+    m_BoneIndex3: 46
+  - m_Weight0: 0.345237
+    m_Weight1: 0.27105722
+    m_Weight2: 0.20139466
+    m_Weight3: 0.18231113
+    m_BoneIndex0: 47
+    m_BoneIndex1: 43
+    m_BoneIndex2: 48
+    m_BoneIndex3: 46
+  - m_Weight0: 0.5102719
+    m_Weight1: 0.19507931
+    m_Weight2: 0.17167647
+    m_Weight3: 0.12297236
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 48
+    m_BoneIndex3: 46
+  - m_Weight0: 0.37995872
+    m_Weight1: 0.37716505
+    m_Weight2: 0.121782206
+    m_Weight3: 0.12109405
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 48
+    m_BoneIndex3: 29
+  - m_Weight0: 0.41509742
+    m_Weight1: 0.20420398
+    m_Weight2: 0.20183799
+    m_Weight3: 0.17886062
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 48
+    m_BoneIndex3: 44
+  - m_Weight0: 0.35122037
+    m_Weight1: 0.34917328
+    m_Weight2: 0.15426305
+    m_Weight3: 0.14534326
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 36
+    m_BoneIndex3: 48
+  - m_Weight0: 0.2945053
+    m_Weight1: 0.27097207
+    m_Weight2: 0.2360702
+    m_Weight3: 0.19845237
+    m_BoneIndex0: 45
+    m_BoneIndex1: 44
+    m_BoneIndex2: 36
+    m_BoneIndex3: 48
+  - m_Weight0: 0.27704623
+    m_Weight1: 0.27595052
+    m_Weight2: 0.24911648
+    m_Weight3: 0.19788672
+    m_BoneIndex0: 45
+    m_BoneIndex1: 38
+    m_BoneIndex2: 36
+    m_BoneIndex3: 44
+  - m_Weight0: 0.35231447
+    m_Weight1: 0.29299155
+    m_Weight2: 0.19376811
+    m_Weight3: 0.16092576
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 45
+    m_BoneIndex3: 34
+  - m_Weight0: 0.3395831
+    m_Weight1: 0.22984105
+    m_Weight2: 0.21564335
+    m_Weight3: 0.2149325
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 45
+    m_BoneIndex3: 38
+  - m_Weight0: 0.38876364
+    m_Weight1: 0.29346862
+    m_Weight2: 0.16622251
+    m_Weight3: 0.15154518
+    m_BoneIndex0: 44
+    m_BoneIndex1: 36
+    m_BoneIndex2: 34
+    m_BoneIndex3: 48
+  - m_Weight0: 0.3611657
+    m_Weight1: 0.22620396
+    m_Weight2: 0.22180003
+    m_Weight3: 0.19083025
+    m_BoneIndex0: 44
+    m_BoneIndex1: 48
+    m_BoneIndex2: 45
+    m_BoneIndex3: 36
+  - m_Weight0: 0.48999456
+    m_Weight1: 0.2018525
+    m_Weight2: 0.16743052
+    m_Weight3: 0.14072251
+    m_BoneIndex0: 44
+    m_BoneIndex1: 36
+    m_BoneIndex2: 34
+    m_BoneIndex3: 48
+  - m_Weight0: 0.46145344
+    m_Weight1: 0.23882037
+    m_Weight2: 0.15323488
+    m_Weight3: 0.14649141
+    m_BoneIndex0: 44
+    m_BoneIndex1: 48
+    m_BoneIndex2: 34
+    m_BoneIndex3: 45
+  - m_Weight0: 0.34458083
+    m_Weight1: 0.29772964
+    m_Weight2: 0.23565893
+    m_Weight3: 0.12203057
+    m_BoneIndex0: 45
+    m_BoneIndex1: 48
+    m_BoneIndex2: 44
+    m_BoneIndex3: 38
+  - m_Weight0: 0.38821837
+    m_Weight1: 0.27841094
+    m_Weight2: 0.21090579
+    m_Weight3: 0.122464985
+    m_BoneIndex0: 48
+    m_BoneIndex1: 44
+    m_BoneIndex2: 45
+    m_BoneIndex3: 34
+  - m_Weight0: 0.45268577
+    m_Weight1: 0.28858057
+    m_Weight2: 0.13440016
+    m_Weight3: 0.12433359
+    m_BoneIndex0: 45
+    m_BoneIndex1: 48
+    m_BoneIndex2: 44
+    m_BoneIndex3: 46
+  - m_Weight0: 0.44159955
+    m_Weight1: 0.2601495
+    m_Weight2: 0.15310061
+    m_Weight3: 0.1451503
+    m_BoneIndex0: 48
+    m_BoneIndex1: 45
+    m_BoneIndex2: 44
+    m_BoneIndex3: 47
+  - m_Weight0: 0.5568853
+    m_Weight1: 0.16475399
+    m_Weight2: 0.15170816
+    m_Weight3: 0.12665254
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 43
+    m_BoneIndex3: 35
+  - m_Weight0: 0.47773948
+    m_Weight1: 0.20084995
+    m_Weight2: 0.16228533
+    m_Weight3: 0.1591252
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 26
+    m_BoneIndex3: 35
+  - m_Weight0: 0.44548434
+    m_Weight1: 0.23359163
+    m_Weight2: 0.16748606
+    m_Weight3: 0.15343805
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 35
+    m_BoneIndex3: 43
+  - m_Weight0: 0.5406645
+    m_Weight1: 0.21249315
+    m_Weight2: 0.123798996
+    m_Weight3: 0.1230433
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 30
+    m_BoneIndex3: 43
+  - m_Weight0: 0.3613668
+    m_Weight1: 0.35744655
+    m_Weight2: 0.16279723
+    m_Weight3: 0.11838942
+    m_BoneIndex0: 26
+    m_BoneIndex1: 32
+    m_BoneIndex2: 35
+    m_BoneIndex3: 43
+  - m_Weight0: 0.41573545
+    m_Weight1: 0.30371332
+    m_Weight2: 0.14617962
+    m_Weight3: 0.13437161
+    m_BoneIndex0: 32
+    m_BoneIndex1: 26
+    m_BoneIndex2: 30
+    m_BoneIndex3: 18
+  - m_Weight0: 0.4807427
+    m_Weight1: 0.24515942
+    m_Weight2: 0.14097065
+    m_Weight3: 0.13312724
+    m_BoneIndex0: 26
+    m_BoneIndex1: 32
+    m_BoneIndex2: 35
+    m_BoneIndex3: 18
+  - m_Weight0: 0.3848243
+    m_Weight1: 0.27169055
+    m_Weight2: 0.18539089
+    m_Weight3: 0.1580942
+    m_BoneIndex0: 26
+    m_BoneIndex1: 32
+    m_BoneIndex2: 18
+    m_BoneIndex3: 30
+  - m_Weight0: 0.47732657
+    m_Weight1: 0.18592806
+    m_Weight2: 0.17208423
+    m_Weight3: 0.16466098
+    m_BoneIndex0: 26
+    m_BoneIndex1: 9
+    m_BoneIndex2: 32
+    m_BoneIndex3: 18
+  - m_Weight0: 0.38634264
+    m_Weight1: 0.24719857
+    m_Weight2: 0.18323079
+    m_Weight3: 0.18322797
+    m_BoneIndex0: 26
+    m_BoneIndex1: 18
+    m_BoneIndex2: 32
+    m_BoneIndex3: 9
+  - m_Weight0: 0.326289
+    m_Weight1: 0.24477941
+    m_Weight2: 0.22268577
+    m_Weight3: 0.2062458
+    m_BoneIndex0: 32
+    m_BoneIndex1: 35
+    m_BoneIndex2: 26
+    m_BoneIndex3: 43
+  - m_Weight0: 0.33734155
+    m_Weight1: 0.29403
+    m_Weight2: 0.21719229
+    m_Weight3: 0.15143614
+    m_BoneIndex0: 32
+    m_BoneIndex1: 43
+    m_BoneIndex2: 35
+    m_BoneIndex3: 26
+  - m_Weight0: 0.33850452
+    m_Weight1: 0.27651265
+    m_Weight2: 0.23728916
+    m_Weight3: 0.1476936
+    m_BoneIndex0: 26
+    m_BoneIndex1: 32
+    m_BoneIndex2: 35
+    m_BoneIndex3: 43
+  - m_Weight0: 0.4386371
+    m_Weight1: 0.20496067
+    m_Weight2: 0.19445994
+    m_Weight3: 0.1619422
+    m_BoneIndex0: 26
+    m_BoneIndex1: 32
+    m_BoneIndex2: 35
+    m_BoneIndex3: 15
+  - m_Weight0: 0.44318908
+    m_Weight1: 0.22375171
+    m_Weight2: 0.1762581
+    m_Weight3: 0.15680104
+    m_BoneIndex0: 26
+    m_BoneIndex1: 15
+    m_BoneIndex2: 9
+    m_BoneIndex3: 35
+  - m_Weight0: 0.33510694
+    m_Weight1: 0.2551787
+    m_Weight2: 0.22365247
+    m_Weight3: 0.1860619
+    m_BoneIndex0: 35
+    m_BoneIndex1: 43
+    m_BoneIndex2: 32
+    m_BoneIndex3: 26
+  - m_Weight0: 0.37659848
+    m_Weight1: 0.26948518
+    m_Weight2: 0.21365795
+    m_Weight3: 0.14025842
+    m_BoneIndex0: 43
+    m_BoneIndex1: 35
+    m_BoneIndex2: 32
+    m_BoneIndex3: 47
+  - m_Weight0: 0.32957134
+    m_Weight1: 0.26613522
+    m_Weight2: 0.20592065
+    m_Weight3: 0.19837283
+    m_BoneIndex0: 35
+    m_BoneIndex1: 26
+    m_BoneIndex2: 32
+    m_BoneIndex3: 37
+  - m_Weight0: 0.3195639
+    m_Weight1: 0.2555212
+    m_Weight2: 0.2433124
+    m_Weight3: 0.18160258
+    m_BoneIndex0: 26
+    m_BoneIndex1: 35
+    m_BoneIndex2: 15
+    m_BoneIndex3: 37
+  - m_Weight0: 0.362895
+    m_Weight1: 0.30703917
+    m_Weight2: 0.1821491
+    m_Weight3: 0.1479167
+    m_BoneIndex0: 15
+    m_BoneIndex1: 26
+    m_BoneIndex2: 35
+    m_BoneIndex3: 37
+  - m_Weight0: 0.34317517
+    m_Weight1: 0.26609057
+    m_Weight2: 0.2379702
+    m_Weight3: 0.152764
+    m_BoneIndex0: 35
+    m_BoneIndex1: 37
+    m_BoneIndex2: 43
+    m_BoneIndex3: 46
+  - m_Weight0: 0.35310197
+    m_Weight1: 0.27181476
+    m_Weight2: 0.18754233
+    m_Weight3: 0.18754098
+    m_BoneIndex0: 43
+    m_BoneIndex1: 35
+    m_BoneIndex2: 46
+    m_BoneIndex3: 37
+  - m_Weight0: 0.33453655
+    m_Weight1: 0.30951315
+    m_Weight2: 0.17850663
+    m_Weight3: 0.17744367
+    m_BoneIndex0: 35
+    m_BoneIndex1: 37
+    m_BoneIndex2: 15
+    m_BoneIndex3: 26
+  - m_Weight0: 0.29166314
+    m_Weight1: 0.26402518
+    m_Weight2: 0.25026885
+    m_Weight3: 0.19404292
+    m_BoneIndex0: 15
+    m_BoneIndex1: 37
+    m_BoneIndex2: 35
+    m_BoneIndex3: 26
+  - m_Weight0: 0.4667385
+    m_Weight1: 0.18709049
+    m_Weight2: 0.17792492
+    m_Weight3: 0.16824599
+    m_BoneIndex0: 15
+    m_BoneIndex1: 37
+    m_BoneIndex2: 26
+    m_BoneIndex3: 24
+  - m_Weight0: 0.41002804
+    m_Weight1: 0.21779138
+    m_Weight2: 0.19201162
+    m_Weight3: 0.18016884
+    m_BoneIndex0: 15
+    m_BoneIndex1: 26
+    m_BoneIndex2: 5
+    m_BoneIndex3: 9
+  - m_Weight0: 0.31412885
+    m_Weight1: 0.25804427
+    m_Weight2: 0.25186986
+    m_Weight3: 0.17595702
+    m_BoneIndex0: 26
+    m_BoneIndex1: 9
+    m_BoneIndex2: 15
+    m_BoneIndex3: 3
+  - m_Weight0: 0.3373782
+    m_Weight1: 0.27262175
+    m_Weight2: 0.21984844
+    m_Weight3: 0.17015155
+    m_BoneIndex0: 15
+    m_BoneIndex1: 5
+    m_BoneIndex2: 9
+    m_BoneIndex3: 3
+  - m_Weight0: 0.34653458
+    m_Weight1: 0.23705964
+    m_Weight2: 0.22039333
+    m_Weight3: 0.19601251
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 15
+    m_BoneIndex3: 5
+  - m_Weight0: 0.34761786
+    m_Weight1: 0.23534583
+    m_Weight2: 0.21182194
+    m_Weight3: 0.20521435
+    m_BoneIndex0: 5
+    m_BoneIndex1: 9
+    m_BoneIndex2: 15
+    m_BoneIndex3: 3
+  - m_Weight0: 0.36544093
+    m_Weight1: 0.28407517
+    m_Weight2: 0.20352341
+    m_Weight3: 0.1469605
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 5
+    m_BoneIndex3: 15
+  - m_Weight0: 0.36777812
+    m_Weight1: 0.25388354
+    m_Weight2: 0.2380008
+    m_Weight3: 0.14033745
+    m_BoneIndex0: 5
+    m_BoneIndex1: 3
+    m_BoneIndex2: 9
+    m_BoneIndex3: 15
+  - m_Weight0: 0.35341412
+    m_Weight1: 0.34269506
+    m_Weight2: 0.19706774
+    m_Weight3: 0.106823064
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 5
+    m_BoneIndex3: 10
+  - m_Weight0: 0.45419595
+    m_Weight1: 0.3173114
+    m_Weight2: 0.12034786
+    m_Weight3: 0.10814489
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 5
+    m_BoneIndex3: 26
+  - m_Weight0: 0.41152602
+    m_Weight1: 0.392748
+    m_Weight2: 0.112422526
+    m_Weight3: 0.08330347
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 5
+    m_BoneIndex3: 18
+  - m_Weight0: 0.44406414
+    m_Weight1: 0.31851563
+    m_Weight2: 0.13634111
+    m_Weight3: 0.10107912
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 26
+  - m_Weight0: 0.42750007
+    m_Weight1: 0.38217002
+    m_Weight2: 0.10509989
+    m_Weight3: 0.085230075
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 5
+  - m_Weight0: 0.5461623
+    m_Weight1: 0.15584955
+    m_Weight2: 0.15410477
+    m_Weight3: 0.1438834
+    m_BoneIndex0: 5
+    m_BoneIndex1: 15
+    m_BoneIndex2: 3
+    m_BoneIndex3: 11
+  - m_Weight0: 0.48133767
+    m_Weight1: 0.25402078
+    m_Weight2: 0.13689156
+    m_Weight3: 0.12774995
+    m_BoneIndex0: 5
+    m_BoneIndex1: 15
+    m_BoneIndex2: 9
+    m_BoneIndex3: 3
+  - m_Weight0: 0.38567978
+    m_Weight1: 0.24830507
+    m_Weight2: 0.19900663
+    m_Weight3: 0.16700844
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 26
+  - m_Weight0: 0.40869582
+    m_Weight1: 0.25552168
+    m_Weight2: 0.19292288
+    m_Weight3: 0.14285956
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 26
+    m_BoneIndex3: 18
+  - m_Weight0: 0.44653866
+    m_Weight1: 0.31028265
+    m_Weight2: 0.12760943
+    m_Weight3: 0.1155692
+    m_BoneIndex0: 15
+    m_BoneIndex1: 5
+    m_BoneIndex2: 9
+    m_BoneIndex3: 24
+  - m_Weight0: 0.28050092
+    m_Weight1: 0.27856523
+    m_Weight2: 0.2560157
+    m_Weight3: 0.1849182
+    m_BoneIndex0: 9
+    m_BoneIndex1: 26
+    m_BoneIndex2: 18
+    m_BoneIndex3: 3
+  - m_Weight0: 0.33871287
+    m_Weight1: 0.29635897
+    m_Weight2: 0.19104962
+    m_Weight3: 0.17387849
+    m_BoneIndex0: 26
+    m_BoneIndex1: 9
+    m_BoneIndex2: 3
+    m_BoneIndex3: 18
+  - m_Weight0: 0.51182336
+    m_Weight1: 0.2097624
+    m_Weight2: 0.14699294
+    m_Weight3: 0.13142125
+    m_BoneIndex0: 5
+    m_BoneIndex1: 11
+    m_BoneIndex2: 15
+    m_BoneIndex3: 1
+  - m_Weight0: 0.46859434
+    m_Weight1: 0.24252225
+    m_Weight2: 0.18318631
+    m_Weight3: 0.105697095
+    m_BoneIndex0: 5
+    m_BoneIndex1: 15
+    m_BoneIndex2: 11
+    m_BoneIndex3: 24
+  - m_Weight0: 0.36140123
+    m_Weight1: 0.35591644
+    m_Weight2: 0.14180242
+    m_Weight3: 0.14087994
+    m_BoneIndex0: 5
+    m_BoneIndex1: 11
+    m_BoneIndex2: 7
+    m_BoneIndex3: 15
+  - m_Weight0: 0.34439814
+    m_Weight1: 0.301761
+    m_Weight2: 0.21570666
+    m_Weight3: 0.13813418
+    m_BoneIndex0: 5
+    m_BoneIndex1: 11
+    m_BoneIndex2: 15
+    m_BoneIndex3: 24
+  - m_Weight0: 0.48693562
+    m_Weight1: 0.22493067
+    m_Weight2: 0.16797458
+    m_Weight3: 0.12015916
+    m_BoneIndex0: 11
+    m_BoneIndex1: 5
+    m_BoneIndex2: 7
+    m_BoneIndex3: 25
+  - m_Weight0: 0.4324829
+    m_Weight1: 0.23313896
+    m_Weight2: 0.17074613
+    m_Weight3: 0.16363208
+    m_BoneIndex0: 11
+    m_BoneIndex1: 5
+    m_BoneIndex2: 15
+    m_BoneIndex3: 24
+  - m_Weight0: 0.50670415
+    m_Weight1: 0.17985955
+    m_Weight2: 0.16197148
+    m_Weight3: 0.15146482
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 5
+    m_BoneIndex3: 25
+  - m_Weight0: 0.465734
+    m_Weight1: 0.21910706
+    m_Weight2: 0.15803538
+    m_Weight3: 0.1571236
+    m_BoneIndex0: 11
+    m_BoneIndex1: 25
+    m_BoneIndex2: 7
+    m_BoneIndex3: 5
+  - m_Weight0: 0.31843007
+    m_Weight1: 0.23897272
+    m_Weight2: 0.22258809
+    m_Weight3: 0.22000907
+    m_BoneIndex0: 11
+    m_BoneIndex1: 24
+    m_BoneIndex2: 25
+    m_BoneIndex3: 15
+  - m_Weight0: 0.32696843
+    m_Weight1: 0.3265842
+    m_Weight2: 0.21034713
+    m_Weight3: 0.13610026
+    m_BoneIndex0: 25
+    m_BoneIndex1: 11
+    m_BoneIndex2: 24
+    m_BoneIndex3: 15
+  - m_Weight0: 0.3075361
+    m_Weight1: 0.2587393
+    m_Weight2: 0.22769797
+    m_Weight3: 0.2060266
+    m_BoneIndex0: 24
+    m_BoneIndex1: 25
+    m_BoneIndex2: 15
+    m_BoneIndex3: 11
+  - m_Weight0: 0.41156316
+    m_Weight1: 0.2538651
+    m_Weight2: 0.20168406
+    m_Weight3: 0.13288762
+    m_BoneIndex0: 25
+    m_BoneIndex1: 24
+    m_BoneIndex2: 11
+    m_BoneIndex3: 15
+  - m_Weight0: 0.31965908
+    m_Weight1: 0.24636705
+    m_Weight2: 0.24231356
+    m_Weight3: 0.19166023
+    m_BoneIndex0: 24
+    m_BoneIndex1: 37
+    m_BoneIndex2: 25
+    m_BoneIndex3: 15
+  - m_Weight0: 0.3778497
+    m_Weight1: 0.26184738
+    m_Weight2: 0.1804949
+    m_Weight3: 0.17980795
+    m_BoneIndex0: 25
+    m_BoneIndex1: 24
+    m_BoneIndex2: 37
+    m_BoneIndex3: 39
+  - m_Weight0: 0.32019472
+    m_Weight1: 0.2534356
+    m_Weight2: 0.22953463
+    m_Weight3: 0.19683503
+    m_BoneIndex0: 15
+    m_BoneIndex1: 5
+    m_BoneIndex2: 11
+    m_BoneIndex3: 24
+  - m_Weight0: 0.38093975
+    m_Weight1: 0.2713708
+    m_Weight2: 0.17741203
+    m_Weight3: 0.1702774
+    m_BoneIndex0: 15
+    m_BoneIndex1: 24
+    m_BoneIndex2: 5
+    m_BoneIndex3: 11
+  - m_Weight0: 0.29929048
+    m_Weight1: 0.28721613
+    m_Weight2: 0.2634481
+    m_Weight3: 0.15004534
+    m_BoneIndex0: 15
+    m_BoneIndex1: 24
+    m_BoneIndex2: 37
+    m_BoneIndex3: 25
+  - m_Weight0: 0.41421443
+    m_Weight1: 0.2970454
+    m_Weight2: 0.14822815
+    m_Weight3: 0.140512
+    m_BoneIndex0: 15
+    m_BoneIndex1: 5
+    m_BoneIndex2: 11
+    m_BoneIndex3: 24
+  - m_Weight0: 0.51713777
+    m_Weight1: 0.1792858
+    m_Weight2: 0.17717679
+    m_Weight3: 0.1263996
+    m_BoneIndex0: 15
+    m_BoneIndex1: 5
+    m_BoneIndex2: 24
+    m_BoneIndex3: 37
+  - m_Weight0: 0.4217073
+    m_Weight1: 0.22537658
+    m_Weight2: 0.21422613
+    m_Weight3: 0.13868998
+    m_BoneIndex0: 15
+    m_BoneIndex1: 37
+    m_BoneIndex2: 24
+    m_BoneIndex3: 35
+  - m_Weight0: 0.54655975
+    m_Weight1: 0.18854435
+    m_Weight2: 0.13667677
+    m_Weight3: 0.12821904
+    m_BoneIndex0: 15
+    m_BoneIndex1: 5
+    m_BoneIndex2: 24
+    m_BoneIndex3: 26
+  - m_Weight0: 0.36888948
+    m_Weight1: 0.2649781
+    m_Weight2: 0.18970165
+    m_Weight3: 0.17643075
+    m_BoneIndex0: 37
+    m_BoneIndex1: 24
+    m_BoneIndex2: 25
+    m_BoneIndex3: 39
+  - m_Weight0: 0.27073047
+    m_Weight1: 0.2505394
+    m_Weight2: 0.24922
+    m_Weight3: 0.22951016
+    m_BoneIndex0: 25
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 24
+  - m_Weight0: 0.46501705
+    m_Weight1: 0.19954918
+    m_Weight2: 0.19397031
+    m_Weight3: 0.14146346
+    m_BoneIndex0: 37
+    m_BoneIndex1: 39
+    m_BoneIndex2: 24
+    m_BoneIndex3: 46
+  - m_Weight0: 0.3151104
+    m_Weight1: 0.3130687
+    m_Weight2: 0.18673068
+    m_Weight3: 0.18509024
+    m_BoneIndex0: 37
+    m_BoneIndex1: 39
+    m_BoneIndex2: 25
+    m_BoneIndex3: 24
+  - m_Weight0: 0.43401626
+    m_Weight1: 0.21038161
+    m_Weight2: 0.20963354
+    m_Weight3: 0.14596854
+    m_BoneIndex0: 37
+    m_BoneIndex1: 46
+    m_BoneIndex2: 39
+    m_BoneIndex3: 35
+  - m_Weight0: 0.3212987
+    m_Weight1: 0.3193005
+    m_Weight2: 0.21358772
+    m_Weight3: 0.14581314
+    m_BoneIndex0: 37
+    m_BoneIndex1: 39
+    m_BoneIndex2: 46
+    m_BoneIndex3: 24
+  - m_Weight0: 0.32059038
+    m_Weight1: 0.32058793
+    m_Weight2: 0.21261595
+    m_Weight3: 0.14620568
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 35
+  - m_Weight0: 0.29272228
+    m_Weight1: 0.29272088
+    m_Weight2: 0.29095203
+    m_Weight3: 0.1236047
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 39
+    m_BoneIndex3: 35
+  - m_Weight0: 0.31360003
+    m_Weight1: 0.31359693
+    m_Weight2: 0.18727523
+    m_Weight3: 0.18552774
+    m_BoneIndex0: 46
+    m_BoneIndex1: 37
+    m_BoneIndex2: 43
+    m_BoneIndex3: 35
+  - m_Weight0: 0.4634988
+    m_Weight1: 0.20041302
+    m_Weight2: 0.19486837
+    m_Weight3: 0.14121975
+    m_BoneIndex0: 37
+    m_BoneIndex1: 46
+    m_BoneIndex2: 35
+    m_BoneIndex3: 39
+  - m_Weight0: 0.2633235
+    m_Weight1: 0.2521346
+    m_Weight2: 0.2521322
+    m_Weight3: 0.23240972
+    m_BoneIndex0: 43
+    m_BoneIndex1: 46
+    m_BoneIndex2: 37
+    m_BoneIndex3: 35
+  - m_Weight0: 0.36913678
+    m_Weight1: 0.26744696
+    m_Weight2: 0.18536527
+    m_Weight3: 0.17805089
+    m_BoneIndex0: 37
+    m_BoneIndex1: 35
+    m_BoneIndex2: 43
+    m_BoneIndex3: 46
+  - m_Weight0: 0.5228951
+    m_Weight1: 0.17345291
+    m_Weight2: 0.17275856
+    m_Weight3: 0.13089341
+    m_BoneIndex0: 37
+    m_BoneIndex1: 35
+    m_BoneIndex2: 24
+    m_BoneIndex3: 46
+  - m_Weight0: 0.43650797
+    m_Weight1: 0.25359204
+    m_Weight2: 0.15601207
+    m_Weight3: 0.15388794
+    m_BoneIndex0: 37
+    m_BoneIndex1: 35
+    m_BoneIndex2: 24
+    m_BoneIndex3: 15
+  - m_Weight0: 0.4154224
+    m_Weight1: 0.23957649
+    m_Weight2: 0.19652773
+    m_Weight3: 0.14847335
+    m_BoneIndex0: 37
+    m_BoneIndex1: 24
+    m_BoneIndex2: 15
+    m_BoneIndex3: 35
+  - m_Weight0: 0.3523723
+    m_Weight1: 0.2540164
+    m_Weight2: 0.19721188
+    m_Weight3: 0.19639939
+    m_BoneIndex0: 37
+    m_BoneIndex1: 15
+    m_BoneIndex2: 35
+    m_BoneIndex3: 24
+  - m_Weight0: 0.42750007
+    m_Weight1: 0.38217002
+    m_Weight2: 0.10509989
+    m_Weight3: 0.085230075
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 18
+    m_BoneIndex3: 5
+  - m_Weight0: 0.41152602
+    m_Weight1: 0.392748
+    m_Weight2: 0.112422526
+    m_Weight3: 0.08330347
+    m_BoneIndex0: 9
+    m_BoneIndex1: 3
+    m_BoneIndex2: 5
+    m_BoneIndex3: 18
+  - m_Weight0: 0.457092
+    m_Weight1: 0.34124482
+    m_Weight2: 0.10278482
+    m_Weight3: 0.09887855
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 5
+    m_BoneIndex3: 10
+  - m_Weight0: 0.41113868
+    m_Weight1: 0.3733328
+    m_Weight2: 0.11812518
+    m_Weight3: 0.09740323
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 18
+    m_BoneIndex3: 8
+  - m_Weight0: 0.44446874
+    m_Weight1: 0.286911
+    m_Weight2: 0.13502476
+    m_Weight3: 0.1335955
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 8
+    m_BoneIndex3: 10
+  - m_Weight0: 0.39076924
+    m_Weight1: 0.30088672
+    m_Weight2: 0.1623282
+    m_Weight3: 0.14601587
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 8
+    m_BoneIndex3: 18
+  - m_Weight0: 0.33853486
+    m_Weight1: 0.22370157
+    m_Weight2: 0.22038572
+    m_Weight3: 0.21737784
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 0
+    m_BoneIndex3: 8
+  - m_Weight0: 0.31276587
+    m_Weight1: 0.28634083
+    m_Weight2: 0.23316093
+    m_Weight3: 0.16773231
+    m_BoneIndex0: 3
+    m_BoneIndex1: 8
+    m_BoneIndex2: 9
+    m_BoneIndex3: 18
+  - m_Weight0: 0.3057717
+    m_Weight1: 0.28746882
+    m_Weight2: 0.2235347
+    m_Weight3: 0.18322486
+    m_BoneIndex0: 0
+    m_BoneIndex1: 8
+    m_BoneIndex2: 3
+    m_BoneIndex3: 2
+  - m_Weight0: 0.4093577
+    m_Weight1: 0.21283458
+    m_Weight2: 0.1919842
+    m_Weight3: 0.18582352
+    m_BoneIndex0: 8
+    m_BoneIndex1: 3
+    m_BoneIndex2: 2
+    m_BoneIndex3: 0
+  - m_Weight0: 0.40401793
+    m_Weight1: 0.29127598
+    m_Weight2: 0.16918357
+    m_Weight3: 0.13552251
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 5
+    m_BoneIndex3: 10
+  - m_Weight0: 0.35341412
+    m_Weight1: 0.34269506
+    m_Weight2: 0.19706774
+    m_Weight3: 0.106823064
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 5
+    m_BoneIndex3: 10
+  - m_Weight0: 0.39160174
+    m_Weight1: 0.24784216
+    m_Weight2: 0.18561272
+    m_Weight3: 0.17494345
+    m_BoneIndex0: 3
+    m_BoneIndex1: 9
+    m_BoneIndex2: 10
+    m_BoneIndex3: 0
+  - m_Weight0: 0.30526334
+    m_Weight1: 0.2825286
+    m_Weight2: 0.20616823
+    m_Weight3: 0.20603979
+    m_BoneIndex0: 0
+    m_BoneIndex1: 3
+    m_BoneIndex2: 1
+    m_BoneIndex3: 10
+  - m_Weight0: 0.4564626
+    m_Weight1: 0.18513323
+    m_Weight2: 0.18088825
+    m_Weight3: 0.17751586
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 3
+  - m_Weight0: 0.29693404
+    m_Weight1: 0.29085976
+    m_Weight2: 0.22286603
+    m_Weight3: 0.18934025
+    m_BoneIndex0: 5
+    m_BoneIndex1: 3
+    m_BoneIndex2: 9
+    m_BoneIndex3: 1
+  - m_Weight0: 0.36777812
+    m_Weight1: 0.25388354
+    m_Weight2: 0.2380008
+    m_Weight3: 0.14033745
+    m_BoneIndex0: 5
+    m_BoneIndex1: 3
+    m_BoneIndex2: 9
+    m_BoneIndex3: 15
+  - m_Weight0: 0.29185027
+    m_Weight1: 0.27012464
+    m_Weight2: 0.23048821
+    m_Weight3: 0.20753677
+    m_BoneIndex0: 1
+    m_BoneIndex1: 3
+    m_BoneIndex2: 10
+    m_BoneIndex3: 5
+  - m_Weight0: 0.30642766
+    m_Weight1: 0.30641896
+    m_Weight2: 0.21110724
+    m_Weight3: 0.17604618
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 3
+  - m_Weight0: 0.4742428
+    m_Weight1: 0.23345041
+    m_Weight2: 0.16204952
+    m_Weight3: 0.13025723
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 4
+  - m_Weight0: 0.39495647
+    m_Weight1: 0.24638847
+    m_Weight2: 0.18226436
+    m_Weight3: 0.17639074
+    m_BoneIndex0: 5
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 3
+  - m_Weight0: 0.5461623
+    m_Weight1: 0.15584955
+    m_Weight2: 0.15410477
+    m_Weight3: 0.1438834
+    m_BoneIndex0: 5
+    m_BoneIndex1: 15
+    m_BoneIndex2: 3
+    m_BoneIndex3: 11
+  - m_Weight0: 0.40339097
+    m_Weight1: 0.219505
+    m_Weight2: 0.21243624
+    m_Weight3: 0.16466776
+    m_BoneIndex0: 1
+    m_BoneIndex1: 5
+    m_BoneIndex2: 10
+    m_BoneIndex3: 0
+  - m_Weight0: 0.45750782
+    m_Weight1: 0.230803
+    m_Weight2: 0.18596834
+    m_Weight3: 0.12572089
+    m_BoneIndex0: 1
+    m_BoneIndex1: 0
+    m_BoneIndex2: 10
+    m_BoneIndex3: 7
+  - m_Weight0: 0.35808864
+    m_Weight1: 0.3580837
+    m_Weight2: 0.15881066
+    m_Weight3: 0.12501708
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 4
+  - m_Weight0: 0.37542418
+    m_Weight1: 0.24138995
+    m_Weight2: 0.22747463
+    m_Weight3: 0.15571123
+    m_BoneIndex0: 5
+    m_BoneIndex1: 1
+    m_BoneIndex2: 11
+    m_BoneIndex3: 7
+  - m_Weight0: 0.51182336
+    m_Weight1: 0.2097624
+    m_Weight2: 0.14699294
+    m_Weight3: 0.13142125
+    m_BoneIndex0: 5
+    m_BoneIndex1: 11
+    m_BoneIndex2: 15
+    m_BoneIndex3: 1
+  - m_Weight0: 0.33863407
+    m_Weight1: 0.26236415
+    m_Weight2: 0.20193952
+    m_Weight3: 0.19706224
+    m_BoneIndex0: 11
+    m_BoneIndex1: 5
+    m_BoneIndex2: 7
+    m_BoneIndex3: 1
+  - m_Weight0: 0.36140123
+    m_Weight1: 0.35591644
+    m_Weight2: 0.14180242
+    m_Weight3: 0.14087994
+    m_BoneIndex0: 5
+    m_BoneIndex1: 11
+    m_BoneIndex2: 7
+    m_BoneIndex3: 15
+  - m_Weight0: 0.44507778
+    m_Weight1: 0.23729163
+    m_Weight2: 0.17287186
+    m_Weight3: 0.14475873
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 5
+    m_BoneIndex3: 1
+  - m_Weight0: 0.48693562
+    m_Weight1: 0.22493067
+    m_Weight2: 0.16797458
+    m_Weight3: 0.12015916
+    m_BoneIndex0: 11
+    m_BoneIndex1: 5
+    m_BoneIndex2: 7
+    m_BoneIndex3: 25
+  - m_Weight0: 0.4813253
+    m_Weight1: 0.23968813
+    m_Weight2: 0.14603601
+    m_Weight3: 0.13295054
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 25
+    m_BoneIndex3: 5
+  - m_Weight0: 0.50670415
+    m_Weight1: 0.17985955
+    m_Weight2: 0.16197148
+    m_Weight3: 0.15146482
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 5
+    m_BoneIndex3: 25
+  - m_Weight0: 0.36194313
+    m_Weight1: 0.36170837
+    m_Weight2: 0.14154948
+    m_Weight3: 0.13479906
+    m_BoneIndex0: 11
+    m_BoneIndex1: 7
+    m_BoneIndex2: 16
+    m_BoneIndex3: 25
+  - m_Weight0: 0.37251452
+    m_Weight1: 0.3224304
+    m_Weight2: 0.18112719
+    m_Weight3: 0.12392787
+    m_BoneIndex0: 7
+    m_BoneIndex1: 11
+    m_BoneIndex2: 1
+    m_BoneIndex3: 5
+  - m_Weight0: 0.29133263
+    m_Weight1: 0.29102117
+    m_Weight2: 0.25345084
+    m_Weight3: 0.16419531
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 11
+    m_BoneIndex3: 5
+  - m_Weight0: 0.41097802
+    m_Weight1: 0.20903866
+    m_Weight2: 0.19766764
+    m_Weight3: 0.18231575
+    m_BoneIndex0: 1
+    m_BoneIndex1: 5
+    m_BoneIndex2: 7
+    m_BoneIndex3: 11
+  - m_Weight0: 0.4662315
+    m_Weight1: 0.23429473
+    m_Weight2: 0.16255291
+    m_Weight3: 0.13692094
+    m_BoneIndex0: 7
+    m_BoneIndex1: 11
+    m_BoneIndex2: 16
+    m_BoneIndex3: 1
+  - m_Weight0: 0.4992124
+    m_Weight1: 0.20367916
+    m_Weight2: 0.20005168
+    m_Weight3: 0.09705681
+    m_BoneIndex0: 7
+    m_BoneIndex1: 11
+    m_BoneIndex2: 1
+    m_BoneIndex3: 10
+  - m_Weight0: 0.3568529
+    m_Weight1: 0.35025206
+    m_Weight2: 0.16651663
+    m_Weight3: 0.12637839
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 11
+    m_BoneIndex3: 10
+  - m_Weight0: 0.502924
+    m_Weight1: 0.19516194
+    m_Weight2: 0.1520286
+    m_Weight3: 0.14988539
+    m_BoneIndex0: 1
+    m_BoneIndex1: 7
+    m_BoneIndex2: 10
+    m_BoneIndex3: 0
+  - m_Weight0: 0.46555296
+    m_Weight1: 0.18739778
+    m_Weight2: 0.17357264
+    m_Weight3: 0.17347658
+    m_BoneIndex0: 7
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 12
+  - m_Weight0: 0.49179664
+    m_Weight1: 0.21326853
+    m_Weight2: 0.15318908
+    m_Weight3: 0.14174569
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 11
+    m_BoneIndex3: 12
+  - m_Weight0: 0.36664277
+    m_Weight1: 0.3462035
+    m_Weight2: 0.1514909
+    m_Weight3: 0.13566281
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 0
+    m_BoneIndex3: 10
+  - m_Weight0: 0.43075928
+    m_Weight1: 0.22360185
+    m_Weight2: 0.19700727
+    m_Weight3: 0.14863156
+    m_BoneIndex0: 1
+    m_BoneIndex1: 0
+    m_BoneIndex2: 7
+    m_BoneIndex3: 10
+  - m_Weight0: 0.63303566
+    m_Weight1: 0.1394542
+    m_Weight2: 0.13132453
+    m_Weight3: 0.096185595
+    m_BoneIndex0: 2
+    m_BoneIndex1: 8
+    m_BoneIndex2: 13
+    m_BoneIndex3: 4
+  - m_Weight0: 0.5659283
+    m_Weight1: 0.15706386
+    m_Weight2: 0.15007217
+    m_Weight3: 0.12693569
+    m_BoneIndex0: 2
+    m_BoneIndex1: 4
+    m_BoneIndex2: 13
+    m_BoneIndex3: 0
+  - m_Weight0: 0.6007392
+    m_Weight1: 0.18757598
+    m_Weight2: 0.12590599
+    m_Weight3: 0.08577878
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 4
+    m_BoneIndex3: 8
+  - m_Weight0: 0.6694435
+    m_Weight1: 0.149727
+    m_Weight2: 0.0938575
+    m_Weight3: 0.086972
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 8
+    m_BoneIndex3: 4
+  - m_Weight0: 0.40190506
+    m_Weight1: 0.23889028
+    m_Weight2: 0.2284639
+    m_Weight3: 0.13074082
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 4
+    m_BoneIndex3: 14
+  - m_Weight0: 0.37143284
+    m_Weight1: 0.27840984
+    m_Weight2: 0.18389872
+    m_Weight3: 0.16625872
+    m_BoneIndex0: 2
+    m_BoneIndex1: 4
+    m_BoneIndex2: 0
+    m_BoneIndex3: 13
+  - m_Weight0: 0.34230483
+    m_Weight1: 0.22982213
+    m_Weight2: 0.2184804
+    m_Weight3: 0.20939276
+    m_BoneIndex0: 4
+    m_BoneIndex1: 2
+    m_BoneIndex2: 13
+    m_BoneIndex3: 14
+  - m_Weight0: 0.42653832
+    m_Weight1: 0.21216644
+    m_Weight2: 0.21131246
+    m_Weight3: 0.14998285
+    m_BoneIndex0: 4
+    m_BoneIndex1: 2
+    m_BoneIndex2: 0
+    m_BoneIndex3: 13
+  - m_Weight0: 0.3365119
+    m_Weight1: 0.26938024
+    m_Weight2: 0.24172464
+    m_Weight3: 0.15238313
+    m_BoneIndex0: 4
+    m_BoneIndex1: 14
+    m_BoneIndex2: 6
+    m_BoneIndex3: 13
+  - m_Weight0: 0.4202919
+    m_Weight1: 0.22990505
+    m_Weight2: 0.18030627
+    m_Weight3: 0.16949683
+    m_BoneIndex0: 4
+    m_BoneIndex1: 6
+    m_BoneIndex2: 0
+    m_BoneIndex3: 14
+  - m_Weight0: 0.47199988
+    m_Weight1: 0.2639871
+    m_Weight2: 0.13463727
+    m_Weight3: 0.12937585
+    m_BoneIndex0: 2
+    m_BoneIndex1: 8
+    m_BoneIndex2: 0
+    m_BoneIndex3: 17
+  - m_Weight0: 0.41589528
+    m_Weight1: 0.21298255
+    m_Weight2: 0.19621067
+    m_Weight3: 0.17491147
+    m_BoneIndex0: 2
+    m_BoneIndex1: 0
+    m_BoneIndex2: 8
+    m_BoneIndex3: 4
+  - m_Weight0: 0.32371363
+    m_Weight1: 0.27965927
+    m_Weight2: 0.26178065
+    m_Weight3: 0.1348465
+    m_BoneIndex0: 0
+    m_BoneIndex1: 2
+    m_BoneIndex2: 4
+    m_BoneIndex3: 8
+  - m_Weight0: 0.37395352
+    m_Weight1: 0.34196058
+    m_Weight2: 0.16347638
+    m_Weight3: 0.12060954
+    m_BoneIndex0: 0
+    m_BoneIndex1: 4
+    m_BoneIndex2: 2
+    m_BoneIndex3: 6
+  - m_Weight0: 0.36033836
+    m_Weight1: 0.31627992
+    m_Weight2: 0.18540306
+    m_Weight3: 0.13797872
+    m_BoneIndex0: 4
+    m_BoneIndex1: 0
+    m_BoneIndex2: 6
+    m_BoneIndex3: 1
+  - m_Weight0: 0.3796926
+    m_Weight1: 0.28984872
+    m_Weight2: 0.17071085
+    m_Weight3: 0.15974775
+    m_BoneIndex0: 8
+    m_BoneIndex1: 2
+    m_BoneIndex2: 0
+    m_BoneIndex3: 17
+  - m_Weight0: 0.29492855
+    m_Weight1: 0.27383813
+    m_Weight2: 0.267547
+    m_Weight3: 0.16368626
+    m_BoneIndex0: 0
+    m_BoneIndex1: 2
+    m_BoneIndex2: 8
+    m_BoneIndex3: 4
+  - m_Weight0: 0.46071354
+    m_Weight1: 0.19656937
+    m_Weight2: 0.18733716
+    m_Weight3: 0.15537994
+    m_BoneIndex0: 0
+    m_BoneIndex1: 4
+    m_BoneIndex2: 2
+    m_BoneIndex3: 8
+  - m_Weight0: 0.527451
+    m_Weight1: 0.19774146
+    m_Weight2: 0.15523824
+    m_Weight3: 0.1195693
+    m_BoneIndex0: 0
+    m_BoneIndex1: 4
+    m_BoneIndex2: 1
+    m_BoneIndex3: 10
+  - m_Weight0: 0.432174
+    m_Weight1: 0.22235003
+    m_Weight2: 0.21560824
+    m_Weight3: 0.12986775
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 4
+    m_BoneIndex3: 10
+  - m_Weight0: 0.4093577
+    m_Weight1: 0.21283458
+    m_Weight2: 0.1919842
+    m_Weight3: 0.18582352
+    m_BoneIndex0: 8
+    m_BoneIndex1: 3
+    m_BoneIndex2: 2
+    m_BoneIndex3: 0
+  - m_Weight0: 0.3057717
+    m_Weight1: 0.28746882
+    m_Weight2: 0.2235347
+    m_Weight3: 0.18322486
+    m_BoneIndex0: 0
+    m_BoneIndex1: 8
+    m_BoneIndex2: 3
+    m_BoneIndex3: 2
+  - m_Weight0: 0.4564626
+    m_Weight1: 0.18513323
+    m_Weight2: 0.18088825
+    m_Weight3: 0.17751586
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 3
+  - m_Weight0: 0.4742428
+    m_Weight1: 0.23345041
+    m_Weight2: 0.16204952
+    m_Weight3: 0.13025723
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 4
+  - m_Weight0: 0.35808864
+    m_Weight1: 0.3580837
+    m_Weight2: 0.15881066
+    m_Weight3: 0.12501708
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 10
+    m_BoneIndex3: 4
+  - m_Weight0: 0.3783811
+    m_Weight1: 0.29337677
+    m_Weight2: 0.17435929
+    m_Weight3: 0.15388283
+    m_BoneIndex0: 6
+    m_BoneIndex1: 4
+    m_BoneIndex2: 14
+    m_BoneIndex3: 12
+  - m_Weight0: 0.36972073
+    m_Weight1: 0.2566983
+    m_Weight2: 0.2269657
+    m_Weight3: 0.14661533
+    m_BoneIndex0: 6
+    m_BoneIndex1: 14
+    m_BoneIndex2: 4
+    m_BoneIndex3: 12
+  - m_Weight0: 0.46100232
+    m_Weight1: 0.20976453
+    m_Weight2: 0.19109847
+    m_Weight3: 0.13813473
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 14
+    m_BoneIndex3: 4
+  - m_Weight0: 0.46677563
+    m_Weight1: 0.22051333
+    m_Weight2: 0.16931313
+    m_Weight3: 0.14339797
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 4
+    m_BoneIndex3: 14
+  - m_Weight0: 0.4142624
+    m_Weight1: 0.32691625
+    m_Weight2: 0.14711529
+    m_Weight3: 0.11170608
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.4189468
+    m_Weight1: 0.3407332
+    m_Weight2: 0.123393096
+    m_Weight3: 0.11692698
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 14
+    m_BoneIndex3: 4
+  - m_Weight0: 0.4275121
+    m_Weight1: 0.32875147
+    m_Weight2: 0.12531109
+    m_Weight3: 0.118425384
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.46576747
+    m_Weight1: 0.3154967
+    m_Weight2: 0.112687536
+    m_Weight3: 0.10604833
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.34637296
+    m_Weight1: 0.33166683
+    m_Weight2: 0.1873649
+    m_Weight3: 0.13459527
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 7
+    m_BoneIndex3: 4
+  - m_Weight0: 0.41696042
+    m_Weight1: 0.27280667
+    m_Weight2: 0.18598524
+    m_Weight3: 0.124247715
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 7
+    m_BoneIndex3: 16
+  - m_Weight0: 0.34030962
+    m_Weight1: 0.24348359
+    m_Weight2: 0.22962765
+    m_Weight3: 0.18657912
+    m_BoneIndex0: 7
+    m_BoneIndex1: 12
+    m_BoneIndex2: 6
+    m_BoneIndex3: 1
+  - m_Weight0: 0.32755086
+    m_Weight1: 0.2951459
+    m_Weight2: 0.20345657
+    m_Weight3: 0.17384669
+    m_BoneIndex0: 7
+    m_BoneIndex1: 12
+    m_BoneIndex2: 6
+    m_BoneIndex3: 16
+  - m_Weight0: 0.49179664
+    m_Weight1: 0.21326853
+    m_Weight2: 0.15318908
+    m_Weight3: 0.14174569
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 11
+    m_BoneIndex3: 12
+  - m_Weight0: 0.46555296
+    m_Weight1: 0.18739778
+    m_Weight2: 0.17357264
+    m_Weight3: 0.17347658
+    m_BoneIndex0: 7
+    m_BoneIndex1: 16
+    m_BoneIndex2: 11
+    m_BoneIndex3: 12
+  - m_Weight0: 0.3877227
+    m_Weight1: 0.24139215
+    m_Weight2: 0.2043253
+    m_Weight3: 0.16655979
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 4
+    m_BoneIndex3: 7
+  - m_Weight0: 0.2889968
+    m_Weight1: 0.27056578
+    m_Weight2: 0.24651018
+    m_Weight3: 0.1939273
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 6
+    m_BoneIndex3: 12
+  - m_Weight0: 0.36664277
+    m_Weight1: 0.3462035
+    m_Weight2: 0.1514909
+    m_Weight3: 0.13566281
+    m_BoneIndex0: 7
+    m_BoneIndex1: 1
+    m_BoneIndex2: 0
+    m_BoneIndex3: 10
+  - m_Weight0: 0.30413252
+    m_Weight1: 0.29905266
+    m_Weight2: 0.23347387
+    m_Weight3: 0.16334084
+    m_BoneIndex0: 6
+    m_BoneIndex1: 4
+    m_BoneIndex2: 0
+    m_BoneIndex3: 1
+  - m_Weight0: 0.296168
+    m_Weight1: 0.29485813
+    m_Weight2: 0.21440245
+    m_Weight3: 0.19457144
+    m_BoneIndex0: 0
+    m_BoneIndex1: 1
+    m_BoneIndex2: 4
+    m_BoneIndex3: 6
+  - m_Weight0: 0.43075928
+    m_Weight1: 0.22360185
+    m_Weight2: 0.19700727
+    m_Weight3: 0.14863156
+    m_BoneIndex0: 1
+    m_BoneIndex1: 0
+    m_BoneIndex2: 7
+    m_BoneIndex3: 10
+  - m_Weight0: 0.6694435
+    m_Weight1: 0.149727
+    m_Weight2: 0.0938575
+    m_Weight3: 0.086972
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 8
+    m_BoneIndex3: 4
+  - m_Weight0: 0.6007392
+    m_Weight1: 0.18757598
+    m_Weight2: 0.12590599
+    m_Weight3: 0.08577878
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 4
+    m_BoneIndex3: 8
+  - m_Weight0: 0.5004296
+    m_Weight1: 0.2747321
+    m_Weight2: 0.12046204
+    m_Weight3: 0.104376234
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 20
+    m_BoneIndex3: 4
+  - m_Weight0: 0.6039491
+    m_Weight1: 0.18856953
+    m_Weight2: 0.107075825
+    m_Weight3: 0.100405484
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 20
+    m_BoneIndex3: 8
+  - m_Weight0: 0.3592419
+    m_Weight1: 0.34418806
+    m_Weight2: 0.19690761
+    m_Weight3: 0.09966246
+    m_BoneIndex0: 13
+    m_BoneIndex1: 2
+    m_BoneIndex2: 20
+    m_BoneIndex3: 27
+  - m_Weight0: 0.43328544
+    m_Weight1: 0.25752506
+    m_Weight2: 0.18559398
+    m_Weight3: 0.1235955
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 20
+    m_BoneIndex3: 17
+  - m_Weight0: 0.3318616
+    m_Weight1: 0.29521218
+    m_Weight2: 0.22467892
+    m_Weight3: 0.14824723
+    m_BoneIndex0: 13
+    m_BoneIndex1: 20
+    m_BoneIndex2: 2
+    m_BoneIndex3: 27
+  - m_Weight0: 0.28325135
+    m_Weight1: 0.28066745
+    m_Weight2: 0.2692548
+    m_Weight3: 0.16682634
+    m_BoneIndex0: 2
+    m_BoneIndex1: 20
+    m_BoneIndex2: 13
+    m_BoneIndex3: 17
+  - m_Weight0: 0.3533237
+    m_Weight1: 0.25541463
+    m_Weight2: 0.19746067
+    m_Weight3: 0.19380094
+    m_BoneIndex0: 20
+    m_BoneIndex1: 13
+    m_BoneIndex2: 27
+    m_BoneIndex3: 40
+  - m_Weight0: 0.33548513
+    m_Weight1: 0.23243633
+    m_Weight2: 0.21604116
+    m_Weight3: 0.21603747
+    m_BoneIndex0: 20
+    m_BoneIndex1: 13
+    m_BoneIndex2: 31
+    m_BoneIndex3: 40
+  - m_Weight0: 0.35332677
+    m_Weight1: 0.3385044
+    m_Weight2: 0.16013436
+    m_Weight3: 0.14803456
+    m_BoneIndex0: 13
+    m_BoneIndex1: 2
+    m_BoneIndex2: 4
+    m_BoneIndex3: 14
+  - m_Weight0: 0.40190506
+    m_Weight1: 0.23889028
+    m_Weight2: 0.2284639
+    m_Weight3: 0.13074082
+    m_BoneIndex0: 2
+    m_BoneIndex1: 13
+    m_BoneIndex2: 4
+    m_BoneIndex3: 14
+  - m_Weight0: 0.425661
+    m_Weight1: 0.23735401
+    m_Weight2: 0.18900725
+    m_Weight3: 0.14797767
+    m_BoneIndex0: 13
+    m_BoneIndex1: 2
+    m_BoneIndex2: 20
+    m_BoneIndex3: 14
+  - m_Weight0: 0.35078025
+    m_Weight1: 0.26046854
+    m_Weight2: 0.22596276
+    m_Weight3: 0.16278848
+    m_BoneIndex0: 13
+    m_BoneIndex1: 20
+    m_BoneIndex2: 27
+    m_BoneIndex3: 2
+  - m_Weight0: 0.3132586
+    m_Weight1: 0.29392284
+    m_Weight2: 0.2400552
+    m_Weight3: 0.15276349
+    m_BoneIndex0: 27
+    m_BoneIndex1: 20
+    m_BoneIndex2: 13
+    m_BoneIndex3: 40
+  - m_Weight0: 0.30658734
+    m_Weight1: 0.26695305
+    m_Weight2: 0.21890338
+    m_Weight3: 0.20755629
+    m_BoneIndex0: 13
+    m_BoneIndex1: 14
+    m_BoneIndex2: 4
+    m_BoneIndex3: 2
+  - m_Weight0: 0.34230483
+    m_Weight1: 0.22982213
+    m_Weight2: 0.2184804
+    m_Weight3: 0.20939276
+    m_BoneIndex0: 4
+    m_BoneIndex1: 2
+    m_BoneIndex2: 13
+    m_BoneIndex3: 14
+  - m_Weight0: 0.35834932
+    m_Weight1: 0.27025592
+    m_Weight2: 0.20393978
+    m_Weight3: 0.16745506
+    m_BoneIndex0: 13
+    m_BoneIndex1: 14
+    m_BoneIndex2: 27
+    m_BoneIndex3: 20
+  - m_Weight0: 0.34544373
+    m_Weight1: 0.27170056
+    m_Weight2: 0.19229509
+    m_Weight3: 0.19056068
+    m_BoneIndex0: 27
+    m_BoneIndex1: 13
+    m_BoneIndex2: 14
+    m_BoneIndex3: 20
+  - m_Weight0: 0.5101592
+    m_Weight1: 0.18796127
+    m_Weight2: 0.17471044
+    m_Weight3: 0.12716912
+    m_BoneIndex0: 27
+    m_BoneIndex1: 20
+    m_BoneIndex2: 13
+    m_BoneIndex3: 14
+  - m_Weight0: 0.39037043
+    m_Weight1: 0.2159482
+    m_Weight2: 0.20044406
+    m_Weight3: 0.19323735
+    m_BoneIndex0: 14
+    m_BoneIndex1: 4
+    m_BoneIndex2: 6
+    m_BoneIndex3: 13
+  - m_Weight0: 0.3365119
+    m_Weight1: 0.26938024
+    m_Weight2: 0.24172464
+    m_Weight3: 0.15238313
+    m_BoneIndex0: 4
+    m_BoneIndex1: 14
+    m_BoneIndex2: 6
+    m_BoneIndex3: 13
+  - m_Weight0: 0.4039707
+    m_Weight1: 0.21428259
+    m_Weight2: 0.20990497
+    m_Weight3: 0.17184182
+    m_BoneIndex0: 14
+    m_BoneIndex1: 13
+    m_BoneIndex2: 27
+    m_BoneIndex3: 22
+  - m_Weight0: 0.37998518
+    m_Weight1: 0.2565035
+    m_Weight2: 0.19005157
+    m_Weight3: 0.17345978
+    m_BoneIndex0: 27
+    m_BoneIndex1: 14
+    m_BoneIndex2: 22
+    m_BoneIndex3: 13
+  - m_Weight0: 0.5761087
+    m_Weight1: 0.16493264
+    m_Weight2: 0.14180376
+    m_Weight3: 0.11715493
+    m_BoneIndex0: 27
+    m_BoneIndex1: 22
+    m_BoneIndex2: 14
+    m_BoneIndex3: 13
+  - m_Weight0: 0.5048075
+    m_Weight1: 0.18543716
+    m_Weight2: 0.17599007
+    m_Weight3: 0.13376531
+    m_BoneIndex0: 27
+    m_BoneIndex1: 20
+    m_BoneIndex2: 40
+    m_BoneIndex3: 34
+  - m_Weight0: 0.31603932
+    m_Weight1: 0.26036072
+    m_Weight2: 0.2563544
+    m_Weight3: 0.16724554
+    m_BoneIndex0: 27
+    m_BoneIndex1: 40
+    m_BoneIndex2: 20
+    m_BoneIndex3: 31
+  - m_Weight0: 0.32822287
+    m_Weight1: 0.27040532
+    m_Weight2: 0.20775294
+    m_Weight3: 0.19361888
+    m_BoneIndex0: 27
+    m_BoneIndex1: 40
+    m_BoneIndex2: 44
+    m_BoneIndex3: 34
+  - m_Weight0: 0.38022023
+    m_Weight1: 0.2208474
+    m_Weight2: 0.2119534
+    m_Weight3: 0.18697898
+    m_BoneIndex0: 40
+    m_BoneIndex1: 27
+    m_BoneIndex2: 31
+    m_BoneIndex3: 42
+  - m_Weight0: 0.29570863
+    m_Weight1: 0.28965753
+    m_Weight2: 0.20882574
+    m_Weight3: 0.20580806
+    m_BoneIndex0: 44
+    m_BoneIndex1: 40
+    m_BoneIndex2: 34
+    m_BoneIndex3: 42
+  - m_Weight0: 0.39313915
+    m_Weight1: 0.23129286
+    m_Weight2: 0.21093884
+    m_Weight3: 0.16462906
+    m_BoneIndex0: 40
+    m_BoneIndex1: 42
+    m_BoneIndex2: 31
+    m_BoneIndex3: 44
+  - m_Weight0: 0.3433531
+    m_Weight1: 0.2370198
+    m_Weight2: 0.23404233
+    m_Weight3: 0.18558486
+    m_BoneIndex0: 44
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 34
+  - m_Weight0: 0.32271352
+    m_Weight1: 0.29586667
+    m_Weight2: 0.20146838
+    m_Weight3: 0.1799515
+    m_BoneIndex0: 40
+    m_BoneIndex1: 42
+    m_BoneIndex2: 31
+    m_BoneIndex3: 44
+  - m_Weight0: 0.416492
+    m_Weight1: 0.26687855
+    m_Weight2: 0.22042051
+    m_Weight3: 0.09620906
+    m_BoneIndex0: 40
+    m_BoneIndex1: 31
+    m_BoneIndex2: 42
+    m_BoneIndex3: 34
+  - m_Weight0: 0.34745994
+    m_Weight1: 0.29193246
+    m_Weight2: 0.26114702
+    m_Weight3: 0.099460565
+    m_BoneIndex0: 40
+    m_BoneIndex1: 42
+    m_BoneIndex2: 31
+    m_BoneIndex3: 44
+  - m_Weight0: 0.351446
+    m_Weight1: 0.35143176
+    m_Weight2: 0.21274239
+    m_Weight3: 0.0843799
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 20
+  - m_Weight0: 0.3289917
+    m_Weight1: 0.32898074
+    m_Weight2: 0.2666853
+    m_Weight3: 0.07534224
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 34
+  - m_Weight0: 0.5074872
+    m_Weight1: 0.19046377
+    m_Weight2: 0.15409507
+    m_Weight3: 0.14795394
+    m_BoneIndex0: 44
+    m_BoneIndex1: 34
+    m_BoneIndex2: 36
+    m_BoneIndex3: 42
+  - m_Weight0: 0.3884907
+    m_Weight1: 0.22324604
+    m_Weight2: 0.21441685
+    m_Weight3: 0.1738465
+    m_BoneIndex0: 44
+    m_BoneIndex1: 36
+    m_BoneIndex2: 34
+    m_BoneIndex3: 27
+  - m_Weight0: 0.34251642
+    m_Weight1: 0.34250367
+    m_Weight2: 0.17733794
+    m_Weight3: 0.13764207
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 42
+    m_BoneIndex3: 20
+  - m_Weight0: 0.39690447
+    m_Weight1: 0.26478323
+    m_Weight2: 0.17965694
+    m_Weight3: 0.15865536
+    m_BoneIndex0: 40
+    m_BoneIndex1: 31
+    m_BoneIndex2: 42
+    m_BoneIndex3: 20
+  - m_Weight0: 0.32645682
+    m_Weight1: 0.2492414
+    m_Weight2: 0.23438846
+    m_Weight3: 0.18991329
+    m_BoneIndex0: 27
+    m_BoneIndex1: 36
+    m_BoneIndex2: 44
+    m_BoneIndex3: 34
+  - m_Weight0: 0.2983957
+    m_Weight1: 0.29838786
+    m_Weight2: 0.24416944
+    m_Weight3: 0.1590471
+    m_BoneIndex0: 31
+    m_BoneIndex1: 40
+    m_BoneIndex2: 20
+    m_BoneIndex3: 42
+  - m_Weight0: 0.30763093
+    m_Weight1: 0.27500007
+    m_Weight2: 0.23147927
+    m_Weight3: 0.18588969
+    m_BoneIndex0: 40
+    m_BoneIndex1: 20
+    m_BoneIndex2: 31
+    m_BoneIndex3: 27
+  - m_Weight0: 0.48999456
+    m_Weight1: 0.2018525
+    m_Weight2: 0.16743052
+    m_Weight3: 0.14072251
+    m_BoneIndex0: 44
+    m_BoneIndex1: 36
+    m_BoneIndex2: 34
+    m_BoneIndex3: 48
+  - m_Weight0: 0.36019626
+    m_Weight1: 0.31527707
+    m_Weight2: 0.18197979
+    m_Weight3: 0.14254676
+    m_BoneIndex0: 44
+    m_BoneIndex1: 36
+    m_BoneIndex2: 34
+    m_BoneIndex3: 27
+  - m_Weight0: 0.38876364
+    m_Weight1: 0.29346862
+    m_Weight2: 0.16622251
+    m_Weight3: 0.15154518
+    m_BoneIndex0: 44
+    m_BoneIndex1: 36
+    m_BoneIndex2: 34
+    m_BoneIndex3: 48
+  - m_Weight0: 0.43294013
+    m_Weight1: 0.28562537
+    m_Weight2: 0.15975347
+    m_Weight3: 0.121681005
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 34
+    m_BoneIndex3: 27
+  - m_Weight0: 0.35231447
+    m_Weight1: 0.29299155
+    m_Weight2: 0.19376811
+    m_Weight3: 0.16092576
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 45
+    m_BoneIndex3: 34
+  - m_Weight0: 0.4699604
+    m_Weight1: 0.23091993
+    m_Weight2: 0.14976308
+    m_Weight3: 0.1493567
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 34
+    m_BoneIndex3: 23
+  - m_Weight0: 0.3395831
+    m_Weight1: 0.22984105
+    m_Weight2: 0.21564335
+    m_Weight3: 0.2149325
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 45
+    m_BoneIndex3: 38
+  - m_Weight0: 0.39994705
+    m_Weight1: 0.21893583
+    m_Weight2: 0.19931683
+    m_Weight3: 0.1818003
+    m_BoneIndex0: 36
+    m_BoneIndex1: 38
+    m_BoneIndex2: 44
+    m_BoneIndex3: 23
+  - m_Weight0: 0.47947252
+    m_Weight1: 0.18821122
+    m_Weight2: 0.17558576
+    m_Weight3: 0.1567306
+    m_BoneIndex0: 36
+    m_BoneIndex1: 22
+    m_BoneIndex2: 23
+    m_BoneIndex3: 44
+  - m_Weight0: 0.38978168
+    m_Weight1: 0.21921472
+    m_Weight2: 0.19924639
+    m_Weight3: 0.19175716
+    m_BoneIndex0: 36
+    m_BoneIndex1: 23
+    m_BoneIndex2: 29
+    m_BoneIndex3: 22
+  - m_Weight0: 0.36338127
+    m_Weight1: 0.28716528
+    m_Weight2: 0.20793687
+    m_Weight3: 0.14151654
+    m_BoneIndex0: 36
+    m_BoneIndex1: 22
+    m_BoneIndex2: 23
+    m_BoneIndex3: 27
+  - m_Weight0: 0.29919678
+    m_Weight1: 0.24773665
+    m_Weight2: 0.24658881
+    m_Weight3: 0.20647773
+    m_BoneIndex0: 36
+    m_BoneIndex1: 22
+    m_BoneIndex2: 23
+    m_BoneIndex3: 29
+  - m_Weight0: 0.41165212
+    m_Weight1: 0.22831225
+    m_Weight2: 0.21804342
+    m_Weight3: 0.14199224
+    m_BoneIndex0: 22
+    m_BoneIndex1: 36
+    m_BoneIndex2: 23
+    m_BoneIndex3: 12
+  - m_Weight0: 0.3198758
+    m_Weight1: 0.26451728
+    m_Weight2: 0.2147076
+    m_Weight3: 0.20089936
+    m_BoneIndex0: 22
+    m_BoneIndex1: 23
+    m_BoneIndex2: 36
+    m_BoneIndex3: 29
+  - m_Weight0: 0.48753935
+    m_Weight1: 0.17903613
+    m_Weight2: 0.16909295
+    m_Weight3: 0.1643316
+    m_BoneIndex0: 36
+    m_BoneIndex1: 44
+    m_BoneIndex2: 22
+    m_BoneIndex3: 27
+  - m_Weight0: 0.3616838
+    m_Weight1: 0.27361953
+    m_Weight2: 0.2076044
+    m_Weight3: 0.15709233
+    m_BoneIndex0: 36
+    m_BoneIndex1: 22
+    m_BoneIndex2: 27
+    m_BoneIndex3: 23
+  - m_Weight0: 0.41584063
+    m_Weight1: 0.21275395
+    m_Weight2: 0.21024707
+    m_Weight3: 0.16115835
+    m_BoneIndex0: 22
+    m_BoneIndex1: 36
+    m_BoneIndex2: 27
+    m_BoneIndex3: 23
+  - m_Weight0: 0.37444198
+    m_Weight1: 0.24375352
+    m_Weight2: 0.21808366
+    m_Weight3: 0.16372079
+    m_BoneIndex0: 36
+    m_BoneIndex1: 27
+    m_BoneIndex2: 44
+    m_BoneIndex3: 34
+  - m_Weight0: 0.36679867
+    m_Weight1: 0.2867158
+    m_Weight2: 0.22064327
+    m_Weight3: 0.12584227
+    m_BoneIndex0: 27
+    m_BoneIndex1: 36
+    m_BoneIndex2: 22
+    m_BoneIndex3: 44
+  - m_Weight0: 0.37840524
+    m_Weight1: 0.29080278
+    m_Weight2: 0.17085809
+    m_Weight3: 0.15993397
+    m_BoneIndex0: 27
+    m_BoneIndex1: 22
+    m_BoneIndex2: 36
+    m_BoneIndex3: 14
+  - m_Weight0: 0.5378762
+    m_Weight1: 0.18498337
+    m_Weight2: 0.15050393
+    m_Weight3: 0.12663642
+    m_BoneIndex0: 27
+    m_BoneIndex1: 36
+    m_BoneIndex2: 22
+    m_BoneIndex3: 34
+  - m_Weight0: 0.43368092
+    m_Weight1: 0.20361027
+    m_Weight2: 0.19130082
+    m_Weight3: 0.17140803
+    m_BoneIndex0: 22
+    m_BoneIndex1: 12
+    m_BoneIndex2: 23
+    m_BoneIndex3: 14
+  - m_Weight0: 0.32557905
+    m_Weight1: 0.2783045
+    m_Weight2: 0.23219448
+    m_Weight3: 0.16392209
+    m_BoneIndex0: 22
+    m_BoneIndex1: 12
+    m_BoneIndex2: 23
+    m_BoneIndex3: 29
+  - m_Weight0: 0.3025059
+    m_Weight1: 0.2776961
+    m_Weight2: 0.22430588
+    m_Weight3: 0.19549215
+    m_BoneIndex0: 22
+    m_BoneIndex1: 12
+    m_BoneIndex2: 6
+    m_BoneIndex3: 14
+  - m_Weight0: 0.38061756
+    m_Weight1: 0.24133489
+    m_Weight2: 0.21243005
+    m_Weight3: 0.16561745
+    m_BoneIndex0: 12
+    m_BoneIndex1: 22
+    m_BoneIndex2: 6
+    m_BoneIndex3: 23
+  - m_Weight0: 0.3210529
+    m_Weight1: 0.32063365
+    m_Weight2: 0.1821
+    m_Weight3: 0.17621347
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.43987003
+    m_Weight1: 0.26950893
+    m_Weight2: 0.15756473
+    m_Weight3: 0.13305627
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 22
+    m_BoneIndex3: 14
+  - m_Weight0: 0.4142624
+    m_Weight1: 0.32691625
+    m_Weight2: 0.14711529
+    m_Weight3: 0.11170608
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.4275121
+    m_Weight1: 0.32875147
+    m_Weight2: 0.12531109
+    m_Weight3: 0.118425384
+    m_BoneIndex0: 12
+    m_BoneIndex1: 6
+    m_BoneIndex2: 14
+    m_BoneIndex3: 22
+  - m_Weight0: 0.46100232
+    m_Weight1: 0.20976453
+    m_Weight2: 0.19109847
+    m_Weight3: 0.13813473
+    m_BoneIndex0: 6
+    m_BoneIndex1: 12
+    m_BoneIndex2: 14
+    m_BoneIndex3: 4
+  - m_Weight0: 0.3421881
+    m_Weight1: 0.27427593
+    m_Weight2: 0.21114129
+    m_Weight3: 0.17239463
+    m_BoneIndex0: 6
+    m_BoneIndex1: 14
+    m_BoneIndex2: 12
+    m_BoneIndex3: 22
+  - m_Weight0: 0.36972073
+    m_Weight1: 0.2566983
+    m_Weight2: 0.2269657
+    m_Weight3: 0.14661533
+    m_BoneIndex0: 6
+    m_BoneIndex1: 14
+    m_BoneIndex2: 4
+    m_BoneIndex3: 12
+  - m_Weight0: 0.39624888
+    m_Weight1: 0.2852401
+    m_Weight2: 0.16485377
+    m_Weight3: 0.15365733
+    m_BoneIndex0: 14
+    m_BoneIndex1: 6
+    m_BoneIndex2: 4
+    m_BoneIndex3: 22
+  - m_Weight0: 0.30689013
+    m_Weight1: 0.29081893
+    m_Weight2: 0.21756133
+    m_Weight3: 0.18472968
+    m_BoneIndex0: 22
+    m_BoneIndex1: 14
+    m_BoneIndex2: 6
+    m_BoneIndex3: 12
+  - m_Weight0: 0.40902784
+    m_Weight1: 0.24013618
+    m_Weight2: 0.18617624
+    m_Weight3: 0.16465972
+    m_BoneIndex0: 14
+    m_BoneIndex1: 22
+    m_BoneIndex2: 6
+    m_BoneIndex3: 27
+  - m_Weight0: 0.45682076
+    m_Weight1: 0.2221774
+    m_Weight2: 0.17382821
+    m_Weight3: 0.14717372
+    m_BoneIndex0: 22
+    m_BoneIndex1: 14
+    m_BoneIndex2: 27
+    m_BoneIndex3: 23
+  - m_Weight0: 0.32366356
+    m_Weight1: 0.2795927
+    m_Weight2: 0.2759379
+    m_Weight3: 0.12080582
+    m_BoneIndex0: 22
+    m_BoneIndex1: 27
+    m_BoneIndex2: 14
+    m_BoneIndex3: 6
+--- !u!137 &3361975530579193998
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361975530579193996}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 59d391b937ebd724fb3bbdf924aba34d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+  m_DirtyAABB: 0
+--- !u!114 &3361975530579193997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361975530579193996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf9b5f8e6e24a9843bae6bf9b2f40fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 25
+  square_velocity: 0
+  max_velocity: 0.01
+  projectile: {fileID: 2974062151252358947, guid: 2818fd3533e83eb458665c1b3a6ef4b0,
+    type: 3}
