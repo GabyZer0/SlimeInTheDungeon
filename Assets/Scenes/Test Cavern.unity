@@ -165,7 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713a1c2ac9e5d6e4f955f9bcaac66cfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrouille: {fileID: 767071430}
 --- !u!195 &81103064
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -487,31 +486,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b536e216bbd27d458fd574b3bcccea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  m_Name: 
-  scale: 0
-  speed: 0
-  MakeSourceStationary: 0
-  positionOffset: 0
-  light: {fileID: 0}
-  intensityOrigin: 0
-  intensityOffset: 0
-  intensityDelta: 0
-  rangeOrigin: 0
-  rangeOffset: 0
-  rangeTarget: 0
-  rangeDelta: 0
-  positionOrigin: {x: 0, y: 0, z: 0}
-  positionDelta: {x: 0, y: 0, z: 0}
-  setNewTargets: 0
-  deltaSum: 0
 --- !u!1 &767071430
 GameObject:
   m_ObjectHideFlags: 0

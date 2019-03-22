@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flex Slime v2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3361975530579193996, guid: e4e36aa0a58b73648bfc6c337c4e8d05,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3361975530579193993, guid: e4e36aa0a58b73648bfc6c337c4e8d05,
         type: 3}
       propertyPath: m_LocalPosition.x
