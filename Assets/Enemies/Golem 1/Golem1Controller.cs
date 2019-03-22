@@ -5,15 +5,11 @@ public class Golem1Controller : EnemyController
     Animator animator;
     StateMachine sm;
 
-    Transform[] patrol;
+    Vector3[] patrol;
     int nbPatrol;
-
-    public GameObject test_obj_moving;
 
 
     float time_iddleaction;
-
-    public GameObject patrouille;
 
     UnityEngine.AI.NavMeshAgent nvagent;
 
@@ -34,30 +30,27 @@ public class Golem1Controller : EnemyController
 
         nvagent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
-        patrol = new Transform[patrouille.transform.childCount];
-        for (int i = 0; i < patrouille.transform.childCount; i++)
-            patrol[i] = patrouille.transform.GetChild(i).transform;
-
         nbPatrol = 0;
 
         animator.SetBool("Moving", true);
-        GoToNextPatrolPoint();
+        //GoToNextPatrolPoint();
+    }
+
+    public void StartTheGame()
+    {
+        this.enabled = true;
+    }
+
+    public void SetPatrol(Vector3[] patrol)
+    {
+        this.patrol = patrol;
     }
 
     private void GoToNextPatrolPoint()
     {
-        nvagent.destination = patrol[nbPatrol].position;
+        nvagent.destination = patrol[nbPatrol];
 
         nbPatrol = (nbPatrol + 1) % patrol.Length;
-    }
-
-    void TestMoving()
-    {
-        animator.SetBool("Moving", true);
-        //transform.LookAt(test_obj_moving.transform);
-        //test_is_moving = true;
-
-        nvagent.destination = test_obj_moving.transform.position;
     }
 
     override protected void ReceiveDamage(float f)

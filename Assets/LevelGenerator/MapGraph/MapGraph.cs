@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,6 +28,11 @@ public class MapGraph : IEnumerable
     public Node GetNode(int i)
     {
         return nodes[i];
+    }
+
+    public Node GetRandomNode()
+    {
+        return nodes[Mathf.FloorToInt(UnityEngine.Random.Range(0, nodes.Count))];
     }
 
     public void DeugDrawGrahp()
@@ -71,4 +77,5 @@ public class MapGraph : IEnumerable
 
 
     }
+
 }

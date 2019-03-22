@@ -16,9 +16,19 @@ public class LevelGenerator : MonoBehaviour
     /** Prefab player **/
     public GameObject p_player;
 
+    /**Prefab enemy **/
+    public GameObject p_enemy1;
+
+    /** NavMesh for level generation **/
     public NavMeshSurface surface;
 
+    /** NavMesh for Movement of enemy **/
+    public NavMeshSurface surface_enemy;
+
     private int seed;
+
+    public const int MIN_WALL = 5;
+    public const int MAX_WALL = 7;
 
 
     // Start is called before the first frame update
@@ -35,7 +45,6 @@ public class LevelGenerator : MonoBehaviour
         NavMeshTriangulation navMeshTriangulation = NavMesh.CalculateTriangulation();
 
         MapGraph mapGraph = GenerateGraph(navMeshTriangulation);
-
         //mapGraph.DeugDrawGrahp();
 
         GenerateLights(mapGraph);
@@ -43,6 +52,38 @@ public class LevelGenerator : MonoBehaviour
         TemporaryPlayerGeneration(mapGraph);
 
         surface.RemoveData(); //Remove the surface to the singleton NavMesh
+
+        surface_enemy.BuildNavMesh();
+        GenerateEnemies(5, mapGraph);
+
+
+        gameObject.BroadcastMessage("StartTheGame");
+    }
+
+    private void GenerateEnemies(int nb, MapGraph map)
+    {
+        for(int i=0;i<nb;i++)
+        {
+            Vector3 pos =  map.GetRandomNode().center;
+            pos.y = 1;
+
+            GameObject enemy = Instantiate(p_enemy1, pos, new Quaternion(),transform); 
+            enemy.SetActive(false);
+
+            Golem1Controller controller = enemy.GetComponent<Golem1Controller>();
+            if(controller != null)
+            {
+                int nbPatrol = 4;
+                Vector3[] patrol = new Vector3[nbPatrol];
+                for(int p=0;p<nbPatrol;p++)
+                {
+                    patrol[p] = map.GetRandomNode().center;
+                }
+                controller.SetPatrol(patrol);
+                controller.enabled = false;
+                enemy.SetActive(true);
+            }
+        }
     }
 
     private void DebugDisplayTriangle(NavMeshTriangulation navMeshTriangulation)
@@ -79,9 +120,8 @@ public class LevelGenerator : MonoBehaviour
                 {
                     //adapt the position to the prefab
                     Vector3 position = hit.position;
-                    position.y = 1.5f+Random.Range(-0.5f,0.5f);
-                    Debug.Log(hit.normal);
-                    Instantiate(p_lamp, position, Quaternion.AngleAxis(30,new Vector3(hit.normal.z,0,hit.normal.x)));
+                    position.y = (MIN_WALL+MAX_WALL)/4f+Random.Range(-0.5f,0.5f);
+                    Instantiate(p_lamp, position, Quaternion.AngleAxis(30,new Vector3(hit.normal.z,0,hit.normal.x))); //TODO: Rotation is not okay
                 }
             }
         }
@@ -119,12 +159,24 @@ public class LevelGenerator : MonoBehaviour
 
         ThreeTierCaveConfiguration ttcc = new ThreeTierCaveConfiguration();
         ttcc.CaveType = ThreeTierCaveType.Enclosed;
-        ttcc.CeilingHeightMapModule = new AKSaigyouji.Modules.HeightMaps.HeightMapRocky();
+
+        AKSaigyouji.Modules.HeightMaps.HeightMapRocky ceiling_gen = new AKSaigyouji.Modules.HeightMaps.HeightMapRocky();
+        AKSaigyouji.HeightMaps.LayeredNoiseParameters ceiling_param = new AKSaigyouji.HeightMaps.LayeredNoiseParameters();
+        ceiling_param.SetHeightRange(MIN_WALL, MAX_WALL);
+        ceiling_param.SetSmoothness(10);
+        ceiling_param.SetLayers(4, 0.5f, 2f);
+        ceiling_gen.Properties = ceiling_param;
+        ttcc.CeilingHeightMapModule = ceiling_gen;
         ttcc.CeilingMaterial = ceiling;
-        ttcc.FloorHeightMapModule = new AKSaigyouji.Modules.HeightMaps.HeightMapConstant();
+
+        AKSaigyouji.Modules.HeightMaps.HeightMapConstant floor_gen = new AKSaigyouji.Modules.HeightMaps.HeightMapConstant();
+        floor_gen.Height = 0;
+        ttcc.FloorHeightMapModule = floor_gen;
         ttcc.FloorMaterial = floor;
+
         ttcc.WallModule = new AKSaigyouji.Modules.CaveWalls.CaveWallFlat();
         ttcc.WallMaterial = wall;
+
         AKSaigyouji.Modules.MapGeneration.MapGenCellAutomata map_gen = new AKSaigyouji.Modules.MapGeneration.MapGenCellAutomata();
         AKSaigyouji.Modules.MapGeneration.MapParameters param = new AKSaigyouji.Modules.MapGeneration.MapParameters
         {
@@ -138,8 +190,9 @@ public class LevelGenerator : MonoBehaviour
         };
         map_gen.Properties = param;
         ttcc.MapGenerator = map_gen;
-        ttcc.Scale = 2;
 
+        ttcc.Scale = 2;
+   
         ttcc.SetSeed(seed);
 
         CaveGenerator cg = factory.BuildThreeTierCaveGen(ttcc);
