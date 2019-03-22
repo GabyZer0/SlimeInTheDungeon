@@ -65,12 +65,11 @@ public class LevelGenerator : MonoBehaviour
             NavMeshHit hit;
             if(NavMesh.FindClosestEdge(node.center, out hit,NavMesh.AllAreas))
             {
-                Debug.Log("Try Adding a light");
                 Collider[] res = Physics.OverlapSphere(hit.position, 10);
                 bool adding = true;
                 foreach(Collider c in res)
                 {
-                    if(c.gameObject.GetComponent<Light>()!=null)
+                    if(c.gameObject.GetComponent<Light>()!=null || c.gameObject.GetComponentInChildren<Light>() !=null)
                     {
                         adding = false;
                     }
@@ -80,8 +79,9 @@ public class LevelGenerator : MonoBehaviour
                 {
                     //adapt the position to the prefab
                     Vector3 position = hit.position;
-                    position.y = 2.5f+Random.Range(-0.5f,0.5f);
-                    Instantiate(p_lamp, position, new Quaternion());
+                    position.y = 1.5f+Random.Range(-0.5f,0.5f);
+                    Debug.Log(hit.normal);
+                    Instantiate(p_lamp, position, Quaternion.AngleAxis(30,new Vector3(hit.normal.z,0,hit.normal.x)));
                 }
             }
         }
@@ -126,8 +126,19 @@ public class LevelGenerator : MonoBehaviour
         ttcc.WallModule = new AKSaigyouji.Modules.CaveWalls.CaveWallFlat();
         ttcc.WallMaterial = wall;
         AKSaigyouji.Modules.MapGeneration.MapGenCellAutomata map_gen = new AKSaigyouji.Modules.MapGeneration.MapGenCellAutomata();
+        AKSaigyouji.Modules.MapGeneration.MapParameters param = new AKSaigyouji.Modules.MapGeneration.MapParameters
+        {
+            Length = 100,
+            Width = 100,
+            InitialDensity = 0.5f,
+            ExpandTunnels = true,
+            BorderSize = 1,
+            MinWallSize = 15,
+            MinFloorSize = 15
+        };
+        map_gen.Properties = param;
         ttcc.MapGenerator = map_gen;
-        ttcc.Scale = 1;
+        ttcc.Scale = 2;
 
         ttcc.SetSeed(seed);
 

@@ -201,10 +201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8a7cab6a28def4b8d90c484ad81b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ceiling: {fileID: 2100000, guid: 00d265064ea3b9a4c98ec6051e8aba2d, type: 2}
-  floor: {fileID: 2100000, guid: 3fb45aa42260ef24a9fe19ec25c2fa7e, type: 2}
-  wall: {fileID: 2100000, guid: c5b80a37f3f26dd49b74a6be6529d560, type: 2}
-  p_lamp: {fileID: 3362540141278764860, guid: 93b355b5b33eeec449c9f122242e790a, type: 3}
+  ceiling: {fileID: 2100000, guid: f0ead930c6c391d408bc8c0ad827c516, type: 2}
+  floor: {fileID: 2100000, guid: ca8df47c0e8e4a04982b498f11064d9e, type: 2}
+  wall: {fileID: 2100000, guid: 5893b00e1dc57d149ad348046cc53d97, type: 2}
+  p_lamp: {fileID: 100000, guid: 1e5c742accdc1824fb01f98f446fa63c, type: 3}
   p_player: {fileID: 145280436623904794, guid: 8bccbfc6f16191e48b32eb45a4b98f58, type: 3}
   surface: {fileID: 534961150}
 --- !u!4 &1299483736
