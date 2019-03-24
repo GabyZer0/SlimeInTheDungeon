@@ -39,10 +39,11 @@ public class MapGraph : IEnumerable
     {
         foreach(Node node in nodes)
         {
-            foreach(int id in node.neighbors)
+            foreach(Node neighbors in node.neighbors)
             {
-                Debug.DrawLine(node.center, nodes[id].center, Color.red, 100000, false);
+                Debug.DrawLine(node.center, neighbors.center, Color.magenta, 100000, false);
             }
+    
         }
     }
 
@@ -51,15 +52,20 @@ public class MapGraph : IEnumerable
         return ((IEnumerable)nodes).GetEnumerator();
     }
 
-    public class Node
+    public class Node : IComparable
     {
         public Vector3 center
         {
-             get; protected set;
+             get; set;
+        }
+
+        public float area
+        {
+            get; set;
         }
 
         /** id of the neibors in Map.nodes **/
-        public SortedSet<int> neighbors
+        public SortedSet<Node> neighbors
         {
             get; protected set;
         }
@@ -67,15 +73,22 @@ public class MapGraph : IEnumerable
         public Node(Vector3 vector3)
         {
             this.center = vector3;
-            neighbors = new SortedSet<int>();
+            neighbors = new SortedSet<Node>();
         }
 
-        public void AddEdge(int i)
+        public void AddEdge(Node n)
         {
-            neighbors.Add(i);
+            neighbors.Add(n);
         }
 
+        public int CompareTo(object obj)
+        {
+            if (!(obj is Node)) return -1;
+            Node node = (Node)obj;
 
+            return Mathf.FloorToInt((node.center - center).sqrMagnitude);
+            
+        }
     }
 
 }

@@ -104,7 +104,6 @@ public class SlimeController_v2 : MonoBehaviour
             GameObject go = Instantiate(projectile);
             go.transform.position = transform.position;
             go.GetComponent<Rigidbody>().AddForce((cam.forward + cam.up * 0.5f) * 1000); //TODO: Detruite les proj
-            Debug.Log("pos : " + Camera.main.ScreenToWorldPoint(Input.mousePosition));
         }
 
         /* DEBUT DASH */

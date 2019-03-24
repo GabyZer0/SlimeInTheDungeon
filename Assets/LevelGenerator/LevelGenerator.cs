@@ -25,15 +25,18 @@ public class LevelGenerator : MonoBehaviour
     /** NavMesh for Movement of enemy **/
     public NavMeshSurface surface_enemy;
 
+    //TODO: argument for size, enemy etc for the generation
+
     private int seed;
 
     public const int MIN_WALL = 5;
-    public const int MAX_WALL = 7;
+    public const int MAX_WALL = 7; //can change this to create a geant map
 
 
     // Start is called before the first frame update
     void Start()
     {
+        float begin = Time.realtimeSinceStartup;
         this.seed = Mathf.FloorToInt(Random.value * int.MaxValue);
         Random.InitState(seed);
             
@@ -42,11 +45,16 @@ public class LevelGenerator : MonoBehaviour
 
         surface.AddData(); //Add the surface to the singleton Nav Mesh
 
+        
         NavMeshTriangulation navMeshTriangulation = NavMesh.CalculateTriangulation();
+        DebugDisplayTriangle(navMeshTriangulation);
+        
 
         MapGraph mapGraph = GenerateGraph(navMeshTriangulation);
-        //mapGraph.DeugDrawGrahp();
+        
+        mapGraph.DeugDrawGrahp();
 
+        Debug.Log("Generation took " + (Time.realtimeSinceStartup-begin) + " seconds");
         GenerateLights(mapGraph);
 
         TemporaryPlayerGeneration(mapGraph);
@@ -92,25 +100,36 @@ public class LevelGenerator : MonoBehaviour
 
         for (int i = 0; i < ind.Length; i += 3)
         {
-            Debug.DrawLine(navMeshTriangulation.vertices[ind[i]], navMeshTriangulation.vertices[ind[i + 1]], Color.red, 10000, false);
-            Debug.DrawLine(navMeshTriangulation.vertices[ind[i]], navMeshTriangulation.vertices[ind[i + 2]], Color.red, 10000, false);
-            Debug.DrawLine(navMeshTriangulation.vertices[ind[i + 1]], navMeshTriangulation.vertices[ind[i + 2]], Color.red, 100000, false);
+            Vector3 b = (navMeshTriangulation.vertices[ind[i]] + navMeshTriangulation.vertices[ind[i + 1]] + navMeshTriangulation.vertices[ind[i + 2]]) / 3f;
+
+            /*Debug.DrawLine(b, navMeshTriangulation.vertices[ind[i]], Color.red, 10000, false);
+            Debug.DrawLine(b, navMeshTriangulation.vertices[ind[i + 1]], Color.blue, 10000, false);
+            Debug.DrawLine(b, navMeshTriangulation.vertices[ind[i + 2]], Color.green, 10000, false);*/
+
+
+            Debug.DrawLine(navMeshTriangulation.vertices[ind[i]], navMeshTriangulation.vertices[ind[i + 1]], Color.white, 10000, false);
+            Debug.DrawLine(navMeshTriangulation.vertices[ind[i]], navMeshTriangulation.vertices[ind[i + 2]], Color.white, 10000, false);
+            Debug.DrawLine(navMeshTriangulation.vertices[ind[i + 1]], navMeshTriangulation.vertices[ind[i + 2]], Color.white, 100000, false);
         }
     }
 
     private void GenerateLights(MapGraph mapGraph)
     {
-        //should look if we can bake the light at the beginning
-        foreach(MapGraph.Node node in mapGraph)
+        GameObject lights = new GameObject
         {
-            NavMeshHit hit;
-            if(NavMesh.FindClosestEdge(node.center, out hit,NavMesh.AllAreas))
+            name = "Lights"
+        };
+
+        //should look if we can bake the light at the beginning
+        foreach (MapGraph.Node node in mapGraph)
+        {
+            if (NavMesh.FindClosestEdge(node.center, out NavMeshHit hit, NavMesh.AllAreas))
             {
                 Collider[] res = Physics.OverlapSphere(hit.position, 10);
                 bool adding = true;
-                foreach(Collider c in res)
+                foreach (Collider c in res)
                 {
-                    if(c.gameObject.GetComponent<Light>()!=null || c.gameObject.GetComponentInChildren<Light>() !=null)
+                    if (c.gameObject.GetComponent<Light>() != null || c.gameObject.GetComponentInChildren<Light>() != null)
                     {
                         adding = false;
                     }
@@ -120,8 +139,8 @@ public class LevelGenerator : MonoBehaviour
                 {
                     //adapt the position to the prefab
                     Vector3 position = hit.position;
-                    position.y = (MIN_WALL+MAX_WALL)/4f+Random.Range(-0.5f,0.5f);
-                    Instantiate(p_lamp, position, Quaternion.AngleAxis(30,new Vector3(hit.normal.z,0,hit.normal.x))); //TODO: Rotation is not okay
+                    position.y = (MIN_WALL + MAX_WALL) / 4f + Random.Range(-0.5f, 0.5f);
+                    Instantiate(p_lamp, position, Quaternion.AngleAxis(30, new Vector3(hit.normal.z, 0, hit.normal.x)), lights.transform); //TODO: Rotation is not okay
                 }
             }
         }
@@ -139,16 +158,19 @@ public class LevelGenerator : MonoBehaviour
 
     private MapGraph GenerateGraph(NavMeshTriangulation navMeshTriangulation)
     {
+        Debug.Log("Generating graph");
         MapGraphFactory.Init();
         int[] ind = navMeshTriangulation.indices;
-
+        Debug.Assert(ind.Length % 3 == 0);
         for (int i = 0; i < ind.Length; i += 3)
         {
             MapGraphFactory.AddNode(navMeshTriangulation.vertices[ind[i]], navMeshTriangulation.vertices[ind[i+1]], navMeshTriangulation.vertices[ind[i+2]]);
         }
 
-        //MapGraphFactory.RemoveNodesWithMinArea(50f);
+        MapGraphFactory.CreateEdges();
+        //MapGraphFactory.RemoveNodesWithMinArea(500f);
 
+        Debug.Log("The end");
         return MapGraphFactory.GetGraph();
 
     }
@@ -199,6 +221,7 @@ public class LevelGenerator : MonoBehaviour
         //CaveGenerator cg = new MyCaveGenerator(ttcc);
 
         GameObject map = cg.Generate();
+
     }
 
 

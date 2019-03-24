@@ -26,14 +26,15 @@ public class PlayerDetecter : MonoBehaviour
 
 
 
-        if (Physics.Raycast(ray, out RaycastHit hit, max_distance))
+        if (Physics.Raycast(ray, out RaycastHit hit, max_distance, 0, QueryTriggerInteraction.Collide))
         {
-            if (hit.collider.tag == "Player")
+            if (hit.collider.gameObject.tag == "Player")
             {
+                Debug.Log("Sending PlayerFound");
                 SendMessage("PlayerFound", hit.collider.gameObject);
             }
 
-            Debug.Log("RayHit: " + hit.collider.name);
+            Debug.Log("RayHit: " + hit.collider.gameObject.name);
         }
     }
 }
