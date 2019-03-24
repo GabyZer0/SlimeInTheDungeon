@@ -1,14 +1,15 @@
 Features :
  - Bonus + Boss
- - Menu
+ - Menu + cutscene
  - myPathFinding
  - Sound design
+ - Pièges + un peu de deco
 
 Bugs :
- - Les Golems ne detectent plus le joueur
+ - Les Golems ne detectent plus le joueur /!\
  - Orientation des torches
 
  Améliorations :
- - Caméra qui passent lees mus et qui galère sur un des axes
+ - On peut encore améliorer la cam mais ça passe
  - Maniabilité vraiment pas ouf
  - Ne pas chercher à réduire le graphe pour l'instant
